@@ -46,85 +46,87 @@ export function ScenariosView({
 
   return (
     <section className="mode-pane scenarios-pane" aria-label="Classroom scenarios">
-      <div className="scene-meta">
-        <p className="scene-count">
-          Scenario {index} / {total}
-        </p>
-        <p className="scene-topic">{scenario.topic}</p>
-        <p className="scene-score" aria-live="polite">
-          {Object.keys(attempts).length === 0
-            ? "Score off until you tap"
-            : `${correctCount} right · ${Object.keys(attempts).length} answered`}
-        </p>
-      </div>
-
-      <h2 className="scene-prompt">{scenario.prompt}</h2>
-
-      {scenario.kind === "amendment" ? (
-        <div className="scene-amendments" role="group" aria-label="Tap an amendment">
-          {AMENDMENTS.map((item) => {
-            const chosen = attempt?.pick === item.number;
-            const show = answered && (chosen || item.number === scenario.answer);
-            const tone =
-              show && item.number === scenario.answer
-                ? "is-right"
-                : show && chosen
-                  ? "is-wrong"
-                  : "";
-            return (
-              <button
-                key={item.number}
-                type="button"
-                className={`mini-amend ${tone}`}
-                disabled={answered}
-                onClick={() => pick(item.number)}
-              >
-                <span className="roman">{item.roman}</span>
-                <span>{item.title}</span>
-              </button>
-            );
-          })}
+      <div className="scene-board">
+        <div className="scene-meta">
+          <p className="scene-count">
+            Scenario {index} / {total}
+          </p>
+          <p className="scene-topic">{scenario.topic}</p>
+          <p className="scene-score" aria-live="polite">
+            {Object.keys(attempts).length === 0
+              ? "Score off until you tap"
+              : `${correctCount} right · ${Object.keys(attempts).length} answered`}
+          </p>
         </div>
-      ) : (
-        <div className="scene-choices" role="group" aria-label="Choose an answer">
-          {scenario.choices.map((choice) => {
-            const chosen = attempt?.pick === choice;
-            const show = answered && (chosen || choice === scenario.answer);
-            const tone =
-              show && choice === scenario.answer
-                ? "is-right"
-                : show && chosen
-                  ? "is-wrong"
-                  : "";
-            return (
-              <button
-                key={choice}
-                type="button"
-                className={`choice-btn ${tone}`}
-                disabled={answered}
-                onClick={() => pick(choice)}
-              >
-                {choice}
-              </button>
-            );
-          })}
-        </div>
-      )}
 
-      <div className={`feedback${answered ? " is-open" : ""}`} role="status">
-        {attempt ? (
-          <>
-            <p className={attempt.correct ? "ok" : "nope"}>
-              {attempt.correct ? "That’s the civics answer." : "Not quite."}
-            </p>
-            <p className="explain">{scenario.explain}</p>
-          </>
+        <h2 className="scene-prompt">{scenario.prompt}</h2>
+
+        {scenario.kind === "amendment" ? (
+          <div className="scene-amendments" role="group" aria-label="Tap an amendment">
+            {AMENDMENTS.map((item) => {
+              const chosen = attempt?.pick === item.number;
+              const show = answered && (chosen || item.number === scenario.answer);
+              const tone =
+                show && item.number === scenario.answer
+                  ? "is-right"
+                  : show && chosen
+                    ? "is-wrong"
+                    : "";
+              return (
+                <button
+                  key={item.number}
+                  type="button"
+                  className={`mini-amend ${tone}`}
+                  disabled={answered}
+                  onClick={() => pick(item.number)}
+                >
+                  <span className="roman">{item.roman}</span>
+                  <span>{item.title}</span>
+                </button>
+              );
+            })}
+          </div>
         ) : (
-          <p className="feedback-idle">Tap an answer. The board will explain in one sentence.</p>
+          <div className="scene-choices" role="group" aria-label="Choose an answer">
+            {scenario.choices.map((choice) => {
+              const chosen = attempt?.pick === choice;
+              const show = answered && (chosen || choice === scenario.answer);
+              const tone =
+                show && choice === scenario.answer
+                  ? "is-right"
+                  : show && chosen
+                    ? "is-wrong"
+                    : "";
+              return (
+                <button
+                  key={choice}
+                  type="button"
+                  className={`choice-btn ${tone}`}
+                  disabled={answered}
+                  onClick={() => pick(choice)}
+                >
+                  {choice}
+                </button>
+              );
+            })}
+          </div>
         )}
+
+        <div className={`feedback${answered ? " is-open" : ""}`} role="status">
+          {attempt ? (
+            <>
+              <p className={attempt.correct ? "ok" : "nope"}>
+                {attempt.correct ? "That’s the civics answer." : "Not quite."}
+              </p>
+              <p className="explain">{scenario.explain}</p>
+            </>
+          ) : (
+            <p className="feedback-idle">Tap an answer. The board will explain in one sentence.</p>
+          )}
+        </div>
       </div>
 
-      <div className="scene-nav">
+      <div className="scene-toolbar" role="toolbar" aria-label="Scenario navigation">
         <button type="button" className="btn" onClick={prev}>
           Back
         </button>

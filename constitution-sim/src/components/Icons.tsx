@@ -25,14 +25,13 @@ export function EagleIcon({ className }: IconProps) {
     <svg className={className} viewBox="0 0 64 64" aria-hidden="true">
       <path
         fill="currentColor"
-        d="M32 12c3 6 8 10 16 12-6 2-10 6-12 12-2-6-6-10-12-12 8-2 13-6 16-12z"
+        d="M32 7l5.1 10.4 11.5 1.7-8.3 8.1 2 11.4L32 32.8l-10.3 5.8 2-11.4-8.3-8.1 11.5-1.7z"
       />
       <path
         fill="currentColor"
-        d="M20 28c6 2 10 6 12 12 2-6 6-10 12-12 4 8 4 16-4 22H24c-8-6-8-14-4-22z"
-        opacity="0.9"
+        d="M18 38h28l7 19H11z"
+        opacity="0.92"
       />
-      <circle cx="32" cy="22" r="3.2" fill="currentColor" />
     </svg>
   );
 }

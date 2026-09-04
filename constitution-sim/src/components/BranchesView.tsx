@@ -18,6 +18,7 @@ export function BranchesView({
   const check = selectedCheck ? checkById(selectedCheck) : undefined;
   const branch = selectedBranch ? branchById(selectedBranch) : undefined;
 
+  const idle = !selectedBranch && !selectedCheck;
   const litBranches = new Set<BranchId>(
     check ? [...check.from, ...check.toward] : selectedBranch ? [selectedBranch] : [],
   );
@@ -39,21 +40,24 @@ export function BranchesView({
         <BranchCard
           id="legislative"
           selected={selectedBranch === "legislative"}
-          lit={litBranches.has("legislative") || (!selectedBranch && !selectedCheck)}
+          lit={!idle && litBranches.has("legislative")}
+          dim={!idle && !litBranches.has("legislative")}
           onSelect={toggleBranch}
         />
         <Arrow lit={litArrows.has("leg-exec")} label="checks" />
         <BranchCard
           id="executive"
           selected={selectedBranch === "executive"}
-          lit={litBranches.has("executive") || (!selectedBranch && !selectedCheck)}
+          lit={!idle && litBranches.has("executive")}
+          dim={!idle && !litBranches.has("executive")}
           onSelect={toggleBranch}
         />
         <Arrow lit={litArrows.has("exec-jud")} label="checks" />
         <BranchCard
           id="judicial"
           selected={selectedBranch === "judicial"}
-          lit={litBranches.has("judicial") || (!selectedBranch && !selectedCheck)}
+          lit={!idle && litBranches.has("judicial")}
+          dim={!idle && !litBranches.has("judicial")}
           onSelect={toggleBranch}
         />
       </div>
@@ -103,11 +107,13 @@ function BranchCard({
   id,
   selected,
   lit,
+  dim,
   onSelect,
 }: {
   id: BranchId;
   selected: boolean;
   lit: boolean;
+  dim: boolean;
   onSelect: (id: BranchId) => void;
 }) {
   const data = BRANCHES.find((b) => b.id === id);
@@ -115,7 +121,7 @@ function BranchCard({
   return (
     <button
       type="button"
-      className={`branch-card branch-${id}${selected ? " is-selected" : ""}${lit ? " is-lit" : " is-dim"}`}
+      className={`branch-card branch-${id}${selected ? " is-selected" : ""}${lit ? " is-lit" : ""}${dim ? " is-dim" : ""}`}
       aria-pressed={selected}
       onClick={() => onSelect(id)}
     >

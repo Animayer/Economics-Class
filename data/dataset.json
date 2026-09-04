@@ -1,0 +1,5079 @@
+{
+  "meta": {
+    "title": "Inflation Year-over-Year, 1926\u20132026",
+    "class": "Ryan Mayer \u00b7 10th-grade Economics \u00b7 Battery Creek High School, SC",
+    "startYear": 1926,
+    "endYear": 2026,
+    "cpiBase": "1982\u201384 = 100",
+    "cpiSeries": "CPIAUCNS (CPI-U, U.S. city average, all items, not seasonally adjusted)",
+    "cpiSource": "FRED / U.S. Bureau of Labor Statistics",
+    "latestCompleteYear": 2025,
+    "latestThrough": "July 2026",
+    "latestNote": "2026 CPI and several sticker prices are January\u2013July averages, not a full calendar year. Labeled YTD in the app.",
+    "displayYear": 2026,
+    "builtFrom": "scripts/build-data.py"
+  },
+  "cpi": [
+    {
+      "year": 1926,
+      "index": 17.7,
+      "yoyPct": 1.14,
+      "quality": "official"
+    },
+    {
+      "year": 1927,
+      "index": 17.358,
+      "yoyPct": -1.93,
+      "quality": "official"
+    },
+    {
+      "year": 1928,
+      "index": 17.158,
+      "yoyPct": -1.15,
+      "quality": "official"
+    },
+    {
+      "year": 1929,
+      "index": 17.158,
+      "yoyPct": 0.0,
+      "quality": "official"
+    },
+    {
+      "year": 1930,
+      "index": 16.7,
+      "yoyPct": -2.67,
+      "quality": "official"
+    },
+    {
+      "year": 1931,
+      "index": 15.208,
+      "yoyPct": -8.93,
+      "quality": "official"
+    },
+    {
+      "year": 1932,
+      "index": 13.642,
+      "yoyPct": -10.3,
+      "quality": "official"
+    },
+    {
+      "year": 1933,
+      "index": 12.933,
+      "yoyPct": -5.2,
+      "quality": "official"
+    },
+    {
+      "year": 1934,
+      "index": 13.383,
+      "yoyPct": 3.48,
+      "quality": "official"
+    },
+    {
+      "year": 1935,
+      "index": 13.725,
+      "yoyPct": 2.56,
+      "quality": "official"
+    },
+    {
+      "year": 1936,
+      "index": 13.867,
+      "yoyPct": 1.03,
+      "quality": "official"
+    },
+    {
+      "year": 1937,
+      "index": 14.383,
+      "yoyPct": 3.72,
+      "quality": "official"
+    },
+    {
+      "year": 1938,
+      "index": 14.092,
+      "yoyPct": -2.02,
+      "quality": "official"
+    },
+    {
+      "year": 1939,
+      "index": 13.908,
+      "yoyPct": -1.31,
+      "quality": "official"
+    },
+    {
+      "year": 1940,
+      "index": 14.008,
+      "yoyPct": 0.72,
+      "quality": "official"
+    },
+    {
+      "year": 1941,
+      "index": 14.725,
+      "yoyPct": 5.12,
+      "quality": "official"
+    },
+    {
+      "year": 1942,
+      "index": 16.333,
+      "yoyPct": 10.92,
+      "quality": "official"
+    },
+    {
+      "year": 1943,
+      "index": 17.308,
+      "yoyPct": 5.97,
+      "quality": "official"
+    },
+    {
+      "year": 1944,
+      "index": 17.592,
+      "yoyPct": 1.64,
+      "quality": "official"
+    },
+    {
+      "year": 1945,
+      "index": 17.992,
+      "yoyPct": 2.27,
+      "quality": "official"
+    },
+    {
+      "year": 1946,
+      "index": 19.517,
+      "yoyPct": 8.48,
+      "quality": "official"
+    },
+    {
+      "year": 1947,
+      "index": 22.325,
+      "yoyPct": 14.39,
+      "quality": "official"
+    },
+    {
+      "year": 1948,
+      "index": 24.042,
+      "yoyPct": 7.69,
+      "quality": "official"
+    },
+    {
+      "year": 1949,
+      "index": 23.808,
+      "yoyPct": -0.97,
+      "quality": "official"
+    },
+    {
+      "year": 1950,
+      "index": 24.067,
+      "yoyPct": 1.09,
+      "quality": "official"
+    },
+    {
+      "year": 1951,
+      "index": 25.958,
+      "yoyPct": 7.86,
+      "quality": "official"
+    },
+    {
+      "year": 1952,
+      "index": 26.55,
+      "yoyPct": 2.28,
+      "quality": "official"
+    },
+    {
+      "year": 1953,
+      "index": 26.767,
+      "yoyPct": 0.82,
+      "quality": "official"
+    },
+    {
+      "year": 1954,
+      "index": 26.85,
+      "yoyPct": 0.31,
+      "quality": "official"
+    },
+    {
+      "year": 1955,
+      "index": 26.775,
+      "yoyPct": -0.28,
+      "quality": "official"
+    },
+    {
+      "year": 1956,
+      "index": 27.183,
+      "yoyPct": 1.52,
+      "quality": "official"
+    },
+    {
+      "year": 1957,
+      "index": 28.092,
+      "yoyPct": 3.34,
+      "quality": "official"
+    },
+    {
+      "year": 1958,
+      "index": 28.858,
+      "yoyPct": 2.73,
+      "quality": "official"
+    },
+    {
+      "year": 1959,
+      "index": 29.15,
+      "yoyPct": 1.01,
+      "quality": "official"
+    },
+    {
+      "year": 1960,
+      "index": 29.575,
+      "yoyPct": 1.46,
+      "quality": "official"
+    },
+    {
+      "year": 1961,
+      "index": 29.892,
+      "yoyPct": 1.07,
+      "quality": "official"
+    },
+    {
+      "year": 1962,
+      "index": 30.25,
+      "yoyPct": 1.2,
+      "quality": "official"
+    },
+    {
+      "year": 1963,
+      "index": 30.625,
+      "yoyPct": 1.24,
+      "quality": "official"
+    },
+    {
+      "year": 1964,
+      "index": 31.017,
+      "yoyPct": 1.28,
+      "quality": "official"
+    },
+    {
+      "year": 1965,
+      "index": 31.508,
+      "yoyPct": 1.58,
+      "quality": "official"
+    },
+    {
+      "year": 1966,
+      "index": 32.458,
+      "yoyPct": 3.02,
+      "quality": "official"
+    },
+    {
+      "year": 1967,
+      "index": 33.358,
+      "yoyPct": 2.77,
+      "quality": "official"
+    },
+    {
+      "year": 1968,
+      "index": 34.783,
+      "yoyPct": 4.27,
+      "quality": "official"
+    },
+    {
+      "year": 1969,
+      "index": 36.683,
+      "yoyPct": 5.46,
+      "quality": "official"
+    },
+    {
+      "year": 1970,
+      "index": 38.825,
+      "yoyPct": 5.84,
+      "quality": "official"
+    },
+    {
+      "year": 1971,
+      "index": 40.492,
+      "yoyPct": 4.29,
+      "quality": "official"
+    },
+    {
+      "year": 1972,
+      "index": 41.817,
+      "yoyPct": 3.27,
+      "quality": "official"
+    },
+    {
+      "year": 1973,
+      "index": 44.4,
+      "yoyPct": 6.18,
+      "quality": "official"
+    },
+    {
+      "year": 1974,
+      "index": 49.308,
+      "yoyPct": 11.05,
+      "quality": "official"
+    },
+    {
+      "year": 1975,
+      "index": 53.817,
+      "yoyPct": 9.14,
+      "quality": "official"
+    },
+    {
+      "year": 1976,
+      "index": 56.908,
+      "yoyPct": 5.74,
+      "quality": "official"
+    },
+    {
+      "year": 1977,
+      "index": 60.608,
+      "yoyPct": 6.5,
+      "quality": "official"
+    },
+    {
+      "year": 1978,
+      "index": 65.233,
+      "yoyPct": 7.63,
+      "quality": "official"
+    },
+    {
+      "year": 1979,
+      "index": 72.575,
+      "yoyPct": 11.26,
+      "quality": "official"
+    },
+    {
+      "year": 1980,
+      "index": 82.408,
+      "yoyPct": 13.55,
+      "quality": "official"
+    },
+    {
+      "year": 1981,
+      "index": 90.925,
+      "yoyPct": 10.34,
+      "quality": "official"
+    },
+    {
+      "year": 1982,
+      "index": 96.5,
+      "yoyPct": 6.13,
+      "quality": "official"
+    },
+    {
+      "year": 1983,
+      "index": 99.6,
+      "yoyPct": 3.21,
+      "quality": "official"
+    },
+    {
+      "year": 1984,
+      "index": 103.883,
+      "yoyPct": 4.3,
+      "quality": "official"
+    },
+    {
+      "year": 1985,
+      "index": 107.567,
+      "yoyPct": 3.55,
+      "quality": "official"
+    },
+    {
+      "year": 1986,
+      "index": 109.608,
+      "yoyPct": 1.9,
+      "quality": "official"
+    },
+    {
+      "year": 1987,
+      "index": 113.625,
+      "yoyPct": 3.66,
+      "quality": "official"
+    },
+    {
+      "year": 1988,
+      "index": 118.258,
+      "yoyPct": 4.08,
+      "quality": "official"
+    },
+    {
+      "year": 1989,
+      "index": 123.967,
+      "yoyPct": 4.83,
+      "quality": "official"
+    },
+    {
+      "year": 1990,
+      "index": 130.658,
+      "yoyPct": 5.4,
+      "quality": "official"
+    },
+    {
+      "year": 1991,
+      "index": 136.192,
+      "yoyPct": 4.24,
+      "quality": "official"
+    },
+    {
+      "year": 1992,
+      "index": 140.317,
+      "yoyPct": 3.03,
+      "quality": "official"
+    },
+    {
+      "year": 1993,
+      "index": 144.458,
+      "yoyPct": 2.95,
+      "quality": "official"
+    },
+    {
+      "year": 1994,
+      "index": 148.225,
+      "yoyPct": 2.61,
+      "quality": "official"
+    },
+    {
+      "year": 1995,
+      "index": 152.383,
+      "yoyPct": 2.81,
+      "quality": "official"
+    },
+    {
+      "year": 1996,
+      "index": 156.85,
+      "yoyPct": 2.93,
+      "quality": "official"
+    },
+    {
+      "year": 1997,
+      "index": 160.517,
+      "yoyPct": 2.34,
+      "quality": "official"
+    },
+    {
+      "year": 1998,
+      "index": 163.008,
+      "yoyPct": 1.55,
+      "quality": "official"
+    },
+    {
+      "year": 1999,
+      "index": 166.575,
+      "yoyPct": 2.19,
+      "quality": "official"
+    },
+    {
+      "year": 2000,
+      "index": 172.2,
+      "yoyPct": 3.38,
+      "quality": "official"
+    },
+    {
+      "year": 2001,
+      "index": 177.067,
+      "yoyPct": 2.83,
+      "quality": "official"
+    },
+    {
+      "year": 2002,
+      "index": 179.875,
+      "yoyPct": 1.59,
+      "quality": "official"
+    },
+    {
+      "year": 2003,
+      "index": 183.958,
+      "yoyPct": 2.27,
+      "quality": "official"
+    },
+    {
+      "year": 2004,
+      "index": 188.883,
+      "yoyPct": 2.68,
+      "quality": "official"
+    },
+    {
+      "year": 2005,
+      "index": 195.292,
+      "yoyPct": 3.39,
+      "quality": "official"
+    },
+    {
+      "year": 2006,
+      "index": 201.592,
+      "yoyPct": 3.23,
+      "quality": "official"
+    },
+    {
+      "year": 2007,
+      "index": 207.342,
+      "yoyPct": 2.85,
+      "quality": "official"
+    },
+    {
+      "year": 2008,
+      "index": 215.303,
+      "yoyPct": 3.84,
+      "quality": "official"
+    },
+    {
+      "year": 2009,
+      "index": 214.537,
+      "yoyPct": -0.36,
+      "quality": "official"
+    },
+    {
+      "year": 2010,
+      "index": 218.056,
+      "yoyPct": 1.64,
+      "quality": "official"
+    },
+    {
+      "year": 2011,
+      "index": 224.939,
+      "yoyPct": 3.16,
+      "quality": "official"
+    },
+    {
+      "year": 2012,
+      "index": 229.594,
+      "yoyPct": 2.07,
+      "quality": "official"
+    },
+    {
+      "year": 2013,
+      "index": 232.957,
+      "yoyPct": 1.46,
+      "quality": "official"
+    },
+    {
+      "year": 2014,
+      "index": 236.736,
+      "yoyPct": 1.62,
+      "quality": "official"
+    },
+    {
+      "year": 2015,
+      "index": 237.017,
+      "yoyPct": 0.12,
+      "quality": "official"
+    },
+    {
+      "year": 2016,
+      "index": 240.007,
+      "yoyPct": 1.26,
+      "quality": "official"
+    },
+    {
+      "year": 2017,
+      "index": 245.12,
+      "yoyPct": 2.13,
+      "quality": "official"
+    },
+    {
+      "year": 2018,
+      "index": 251.107,
+      "yoyPct": 2.44,
+      "quality": "official"
+    },
+    {
+      "year": 2019,
+      "index": 255.657,
+      "yoyPct": 1.81,
+      "quality": "official"
+    },
+    {
+      "year": 2020,
+      "index": 258.811,
+      "yoyPct": 1.23,
+      "quality": "official"
+    },
+    {
+      "year": 2021,
+      "index": 270.97,
+      "yoyPct": 4.7,
+      "quality": "official"
+    },
+    {
+      "year": 2022,
+      "index": 292.655,
+      "yoyPct": 8.0,
+      "quality": "official"
+    },
+    {
+      "year": 2023,
+      "index": 304.702,
+      "yoyPct": 4.12,
+      "quality": "official"
+    },
+    {
+      "year": 2024,
+      "index": 313.689,
+      "yoyPct": 2.95,
+      "quality": "official"
+    },
+    {
+      "year": 2025,
+      "index": 321.943,
+      "yoyPct": 2.63,
+      "quality": "official"
+    },
+    {
+      "year": 2026,
+      "index": 331.18,
+      "yoyPct": 2.87,
+      "quality": "ytd"
+    }
+  ],
+  "goods": [
+    {
+      "id": "movie",
+      "name": "Movie ticket",
+      "unit": "average U.S. admission",
+      "shortLabel": "Movie",
+      "icon": "film",
+      "notes": "NATO / Cinema United / The Numbers average ticket from 1948. Earlier years are theater-history averages. 2020\u201321 and 2025\u201326 are filled (COVID reporting gap; latest ticket years CPI-scaled).",
+      "availableFrom": 1926,
+      "unavailableReason": null,
+      "series": [
+        {
+          "year": 1926,
+          "price": 0.25,
+          "quality": "documented"
+        },
+        {
+          "year": 1927,
+          "price": 0.25,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1928,
+          "price": 0.25,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1929,
+          "price": 0.25,
+          "quality": "documented"
+        },
+        {
+          "year": 1930,
+          "price": 0.2375,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1931,
+          "price": 0.225,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1932,
+          "price": 0.2125,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1933,
+          "price": 0.2,
+          "quality": "documented"
+        },
+        {
+          "year": 1934,
+          "price": 0.205,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1935,
+          "price": 0.21,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1936,
+          "price": 0.215,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1937,
+          "price": 0.22,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1938,
+          "price": 0.225,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1939,
+          "price": 0.23,
+          "quality": "documented"
+        },
+        {
+          "year": 1940,
+          "price": 0.245,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1941,
+          "price": 0.26,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1942,
+          "price": 0.275,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1943,
+          "price": 0.29,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1944,
+          "price": 0.305,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1945,
+          "price": 0.32,
+          "quality": "documented"
+        },
+        {
+          "year": 1946,
+          "price": 0.3333,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1947,
+          "price": 0.3467,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1948,
+          "price": 0.36,
+          "quality": "official"
+        },
+        {
+          "year": 1949,
+          "price": 0.3817,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1950,
+          "price": 0.4033,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1951,
+          "price": 0.425,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 0.4467,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 0.4683,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 0.49,
+          "quality": "official"
+        },
+        {
+          "year": 1955,
+          "price": 0.5375,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1956,
+          "price": 0.585,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 0.6325,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 0.68,
+          "quality": "official"
+        },
+        {
+          "year": 1959,
+          "price": 0.716,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 0.752,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1961,
+          "price": 0.788,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 0.824,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 0.86,
+          "quality": "official"
+        },
+        {
+          "year": 1964,
+          "price": 0.95,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1965,
+          "price": 1.04,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1966,
+          "price": 1.13,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1967,
+          "price": 1.22,
+          "quality": "official"
+        },
+        {
+          "year": 1968,
+          "price": 1.3275,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1969,
+          "price": 1.435,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1970,
+          "price": 1.5425,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1971,
+          "price": 1.65,
+          "quality": "official"
+        },
+        {
+          "year": 1972,
+          "price": 1.73,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1973,
+          "price": 1.81,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1974,
+          "price": 1.89,
+          "quality": "official"
+        },
+        {
+          "year": 1975,
+          "price": 2.03,
+          "quality": "official"
+        },
+        {
+          "year": 1976,
+          "price": 2.13,
+          "quality": "official"
+        },
+        {
+          "year": 1977,
+          "price": 2.23,
+          "quality": "official"
+        },
+        {
+          "year": 1978,
+          "price": 2.34,
+          "quality": "official"
+        },
+        {
+          "year": 1979,
+          "price": 2.47,
+          "quality": "official"
+        },
+        {
+          "year": 1980,
+          "price": 2.69,
+          "quality": "official"
+        },
+        {
+          "year": 1981,
+          "price": 2.78,
+          "quality": "official"
+        },
+        {
+          "year": 1982,
+          "price": 2.94,
+          "quality": "official"
+        },
+        {
+          "year": 1983,
+          "price": 3.15,
+          "quality": "official"
+        },
+        {
+          "year": 1984,
+          "price": 3.36,
+          "quality": "official"
+        },
+        {
+          "year": 1985,
+          "price": 3.55,
+          "quality": "official"
+        },
+        {
+          "year": 1986,
+          "price": 3.71,
+          "quality": "official"
+        },
+        {
+          "year": 1987,
+          "price": 3.91,
+          "quality": "official"
+        },
+        {
+          "year": 1988,
+          "price": 4.11,
+          "quality": "official"
+        },
+        {
+          "year": 1989,
+          "price": 3.99,
+          "quality": "official"
+        },
+        {
+          "year": 1990,
+          "price": 4.22,
+          "quality": "official"
+        },
+        {
+          "year": 1991,
+          "price": 4.21,
+          "quality": "official"
+        },
+        {
+          "year": 1992,
+          "price": 4.15,
+          "quality": "official"
+        },
+        {
+          "year": 1993,
+          "price": 4.14,
+          "quality": "official"
+        },
+        {
+          "year": 1994,
+          "price": 4.08,
+          "quality": "official"
+        },
+        {
+          "year": 1995,
+          "price": 4.35,
+          "quality": "official"
+        },
+        {
+          "year": 1996,
+          "price": 4.42,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 4.59,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 4.69,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 5.06,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 5.39,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 5.65,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 5.8,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 6.03,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 6.21,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 6.41,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 6.55,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 6.88,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 7.18,
+          "quality": "official"
+        },
+        {
+          "year": 2009,
+          "price": 7.5,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 7.89,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 7.93,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 7.96,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 8.13,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 8.17,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 8.43,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 8.65,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 8.97,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 9.11,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 9.16,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 9.6167,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2021,
+          "price": 10.0733,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2022,
+          "price": 10.53,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 10.94,
+          "quality": "documented"
+        },
+        {
+          "year": 2024,
+          "price": 11.31,
+          "quality": "documented"
+        },
+        {
+          "year": 2025,
+          "price": 11.6076,
+          "quality": "cpi-scaled"
+        },
+        {
+          "year": 2026,
+          "price": 11.9407,
+          "quality": "cpi-scaled"
+        }
+      ]
+    },
+    {
+      "id": "gas",
+      "name": "Gallon of gasoline",
+      "unit": "regular retail, including taxes",
+      "shortLabel": "Gas",
+      "icon": "gas",
+      "notes": "EIA / DOE historical regular retail through 1948; EIA Monthly Energy Review T09.04 annual 1949\u20132025 (unleaded when available, else leaded). 2026 is BLS city-average regular, January\u2013July.",
+      "availableFrom": 1926,
+      "unavailableReason": null,
+      "series": [
+        {
+          "year": 1926,
+          "price": 0.23,
+          "quality": "documented"
+        },
+        {
+          "year": 1927,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1928,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1929,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1930,
+          "price": 0.2,
+          "quality": "documented"
+        },
+        {
+          "year": 1931,
+          "price": 0.17,
+          "quality": "documented"
+        },
+        {
+          "year": 1932,
+          "price": 0.18,
+          "quality": "documented"
+        },
+        {
+          "year": 1933,
+          "price": 0.18,
+          "quality": "documented"
+        },
+        {
+          "year": 1934,
+          "price": 0.19,
+          "quality": "documented"
+        },
+        {
+          "year": 1935,
+          "price": 0.19,
+          "quality": "documented"
+        },
+        {
+          "year": 1936,
+          "price": 0.19,
+          "quality": "documented"
+        },
+        {
+          "year": 1937,
+          "price": 0.2,
+          "quality": "documented"
+        },
+        {
+          "year": 1938,
+          "price": 0.2,
+          "quality": "documented"
+        },
+        {
+          "year": 1939,
+          "price": 0.19,
+          "quality": "documented"
+        },
+        {
+          "year": 1940,
+          "price": 0.18,
+          "quality": "documented"
+        },
+        {
+          "year": 1941,
+          "price": 0.19,
+          "quality": "documented"
+        },
+        {
+          "year": 1942,
+          "price": 0.2,
+          "quality": "documented"
+        },
+        {
+          "year": 1943,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1944,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1945,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1946,
+          "price": 0.21,
+          "quality": "documented"
+        },
+        {
+          "year": 1947,
+          "price": 0.23,
+          "quality": "documented"
+        },
+        {
+          "year": 1948,
+          "price": 0.26,
+          "quality": "documented"
+        },
+        {
+          "year": 1949,
+          "price": 0.268,
+          "quality": "official"
+        },
+        {
+          "year": 1950,
+          "price": 0.268,
+          "quality": "official"
+        },
+        {
+          "year": 1951,
+          "price": 0.272,
+          "quality": "official"
+        },
+        {
+          "year": 1952,
+          "price": 0.274,
+          "quality": "official"
+        },
+        {
+          "year": 1953,
+          "price": 0.287,
+          "quality": "official"
+        },
+        {
+          "year": 1954,
+          "price": 0.29,
+          "quality": "official"
+        },
+        {
+          "year": 1955,
+          "price": 0.291,
+          "quality": "official"
+        },
+        {
+          "year": 1956,
+          "price": 0.299,
+          "quality": "official"
+        },
+        {
+          "year": 1957,
+          "price": 0.31,
+          "quality": "official"
+        },
+        {
+          "year": 1958,
+          "price": 0.304,
+          "quality": "official"
+        },
+        {
+          "year": 1959,
+          "price": 0.305,
+          "quality": "official"
+        },
+        {
+          "year": 1960,
+          "price": 0.311,
+          "quality": "official"
+        },
+        {
+          "year": 1961,
+          "price": 0.308,
+          "quality": "official"
+        },
+        {
+          "year": 1962,
+          "price": 0.306,
+          "quality": "official"
+        },
+        {
+          "year": 1963,
+          "price": 0.304,
+          "quality": "official"
+        },
+        {
+          "year": 1964,
+          "price": 0.304,
+          "quality": "official"
+        },
+        {
+          "year": 1965,
+          "price": 0.312,
+          "quality": "official"
+        },
+        {
+          "year": 1966,
+          "price": 0.321,
+          "quality": "official"
+        },
+        {
+          "year": 1967,
+          "price": 0.332,
+          "quality": "official"
+        },
+        {
+          "year": 1968,
+          "price": 0.337,
+          "quality": "official"
+        },
+        {
+          "year": 1969,
+          "price": 0.348,
+          "quality": "official"
+        },
+        {
+          "year": 1970,
+          "price": 0.357,
+          "quality": "official"
+        },
+        {
+          "year": 1971,
+          "price": 0.364,
+          "quality": "official"
+        },
+        {
+          "year": 1972,
+          "price": 0.361,
+          "quality": "official"
+        },
+        {
+          "year": 1973,
+          "price": 0.388,
+          "quality": "official"
+        },
+        {
+          "year": 1974,
+          "price": 0.532,
+          "quality": "official"
+        },
+        {
+          "year": 1975,
+          "price": 0.567,
+          "quality": "official"
+        },
+        {
+          "year": 1976,
+          "price": 0.614,
+          "quality": "official"
+        },
+        {
+          "year": 1977,
+          "price": 0.656,
+          "quality": "official"
+        },
+        {
+          "year": 1978,
+          "price": 0.67,
+          "quality": "official"
+        },
+        {
+          "year": 1979,
+          "price": 0.903,
+          "quality": "official"
+        },
+        {
+          "year": 1980,
+          "price": 1.245,
+          "quality": "official"
+        },
+        {
+          "year": 1981,
+          "price": 1.378,
+          "quality": "official"
+        },
+        {
+          "year": 1982,
+          "price": 1.296,
+          "quality": "official"
+        },
+        {
+          "year": 1983,
+          "price": 1.241,
+          "quality": "official"
+        },
+        {
+          "year": 1984,
+          "price": 1.212,
+          "quality": "official"
+        },
+        {
+          "year": 1985,
+          "price": 1.202,
+          "quality": "official"
+        },
+        {
+          "year": 1986,
+          "price": 0.927,
+          "quality": "official"
+        },
+        {
+          "year": 1987,
+          "price": 0.948,
+          "quality": "official"
+        },
+        {
+          "year": 1988,
+          "price": 0.946,
+          "quality": "official"
+        },
+        {
+          "year": 1989,
+          "price": 1.022,
+          "quality": "official"
+        },
+        {
+          "year": 1990,
+          "price": 1.164,
+          "quality": "official"
+        },
+        {
+          "year": 1991,
+          "price": 1.14,
+          "quality": "official"
+        },
+        {
+          "year": 1992,
+          "price": 1.127,
+          "quality": "official"
+        },
+        {
+          "year": 1993,
+          "price": 1.108,
+          "quality": "official"
+        },
+        {
+          "year": 1994,
+          "price": 1.112,
+          "quality": "official"
+        },
+        {
+          "year": 1995,
+          "price": 1.147,
+          "quality": "official"
+        },
+        {
+          "year": 1996,
+          "price": 1.231,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 1.234,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 1.059,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 1.165,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 1.51,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 1.461,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 1.358,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 1.591,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 1.88,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 2.295,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 2.589,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 2.801,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 3.266,
+          "quality": "official"
+        },
+        {
+          "year": 2009,
+          "price": 2.35,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 2.788,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 3.527,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 3.644,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 3.526,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 3.367,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 2.448,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 2.142,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 2.408,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 2.735,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 2.636,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 2.174,
+          "quality": "official"
+        },
+        {
+          "year": 2021,
+          "price": 3.051,
+          "quality": "official"
+        },
+        {
+          "year": 2022,
+          "price": 4.094,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 3.658,
+          "quality": "official"
+        },
+        {
+          "year": 2024,
+          "price": 3.449,
+          "quality": "official"
+        },
+        {
+          "year": 2025,
+          "price": 3.257,
+          "quality": "official"
+        },
+        {
+          "year": 2026,
+          "price": 3.8674,
+          "quality": "ytd"
+        }
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Loaf of bread",
+      "unit": "white bread, per pound",
+      "shortLabel": "Bread",
+      "icon": "bread",
+      "notes": "BLS historical white-bread prices, then FRED APU0000702111 (1980\u20132025). A pound of white bread is the long-run BLS unit \u2014 roughly one loaf. 2026 is January\u2013July average.",
+      "availableFrom": 1926,
+      "unavailableReason": null,
+      "series": [
+        {
+          "year": 1926,
+          "price": 0.094,
+          "quality": "documented"
+        },
+        {
+          "year": 1927,
+          "price": 0.092,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1928,
+          "price": 0.09,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1929,
+          "price": 0.088,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1930,
+          "price": 0.086,
+          "quality": "documented"
+        },
+        {
+          "year": 1931,
+          "price": 0.0854,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1932,
+          "price": 0.0848,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1933,
+          "price": 0.0842,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1934,
+          "price": 0.0836,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1935,
+          "price": 0.083,
+          "quality": "documented"
+        },
+        {
+          "year": 1936,
+          "price": 0.0824,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1937,
+          "price": 0.0818,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1938,
+          "price": 0.0812,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1939,
+          "price": 0.0806,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1940,
+          "price": 0.08,
+          "quality": "documented"
+        },
+        {
+          "year": 1941,
+          "price": 0.0816,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1942,
+          "price": 0.0832,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1943,
+          "price": 0.0848,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1944,
+          "price": 0.0864,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1945,
+          "price": 0.088,
+          "quality": "documented"
+        },
+        {
+          "year": 1946,
+          "price": 0.1065,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1947,
+          "price": 0.125,
+          "quality": "documented"
+        },
+        {
+          "year": 1948,
+          "price": 0.131,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1949,
+          "price": 0.137,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1950,
+          "price": 0.143,
+          "quality": "documented"
+        },
+        {
+          "year": 1951,
+          "price": 0.1498,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 0.1566,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 0.1634,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 0.1702,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1955,
+          "price": 0.177,
+          "quality": "documented"
+        },
+        {
+          "year": 1956,
+          "price": 0.1822,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 0.1874,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 0.1926,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1959,
+          "price": 0.1978,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 0.203,
+          "quality": "documented"
+        },
+        {
+          "year": 1961,
+          "price": 0.2038,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 0.2046,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 0.2054,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1964,
+          "price": 0.2062,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1965,
+          "price": 0.207,
+          "quality": "documented"
+        },
+        {
+          "year": 1966,
+          "price": 0.2142,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1967,
+          "price": 0.2214,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1968,
+          "price": 0.2286,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1969,
+          "price": 0.2358,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1970,
+          "price": 0.243,
+          "quality": "documented"
+        },
+        {
+          "year": 1971,
+          "price": 0.2664,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1972,
+          "price": 0.2898,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1973,
+          "price": 0.3132,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1974,
+          "price": 0.3366,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1975,
+          "price": 0.36,
+          "quality": "documented"
+        },
+        {
+          "year": 1976,
+          "price": 0.3898,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1977,
+          "price": 0.4196,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1978,
+          "price": 0.4494,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1979,
+          "price": 0.4792,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1980,
+          "price": 0.509,
+          "quality": "official"
+        },
+        {
+          "year": 1981,
+          "price": 0.525,
+          "quality": "official"
+        },
+        {
+          "year": 1982,
+          "price": 0.532,
+          "quality": "official"
+        },
+        {
+          "year": 1983,
+          "price": 0.542,
+          "quality": "official"
+        },
+        {
+          "year": 1984,
+          "price": 0.541,
+          "quality": "official"
+        },
+        {
+          "year": 1985,
+          "price": 0.553,
+          "quality": "official"
+        },
+        {
+          "year": 1986,
+          "price": 0.565,
+          "quality": "official"
+        },
+        {
+          "year": 1987,
+          "price": 0.547,
+          "quality": "official"
+        },
+        {
+          "year": 1988,
+          "price": 0.613,
+          "quality": "official"
+        },
+        {
+          "year": 1989,
+          "price": 0.666,
+          "quality": "official"
+        },
+        {
+          "year": 1990,
+          "price": 0.695,
+          "quality": "official"
+        },
+        {
+          "year": 1991,
+          "price": 0.71,
+          "quality": "official"
+        },
+        {
+          "year": 1992,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1993,
+          "price": 0.752,
+          "quality": "official"
+        },
+        {
+          "year": 1994,
+          "price": 0.761,
+          "quality": "official"
+        },
+        {
+          "year": 1995,
+          "price": 0.791,
+          "quality": "official"
+        },
+        {
+          "year": 1996,
+          "price": 0.876,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 0.872,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 0.86,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 0.887,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 0.93,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 0.999,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 1.016,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 1.001,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 0.969,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 1.04,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 1.081,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 1.207,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 1.366,
+          "quality": "official"
+        },
+        {
+          "year": 2009,
+          "price": 1.387,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 1.373,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 1.445,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 1.418,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 1.407,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 1.401,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 1.441,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 1.371,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 1.333,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 1.286,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 1.298,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 1.452,
+          "quality": "official"
+        },
+        {
+          "year": 2021,
+          "price": 1.524,
+          "quality": "official"
+        },
+        {
+          "year": 2022,
+          "price": 1.7,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 1.96,
+          "quality": "official"
+        },
+        {
+          "year": 2024,
+          "price": 1.97,
+          "quality": "official"
+        },
+        {
+          "year": 2025,
+          "price": 1.87,
+          "quality": "official"
+        },
+        {
+          "year": 2026,
+          "price": 1.8334,
+          "quality": "ytd"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Cheese pizza",
+      "unit": "large plain / cheese takeout pie",
+      "shortLabel": "Pizza",
+      "icon": "pizza",
+      "notes": "One consistent product: a large cheese (no extra toppings) takeout pizza. There is no official century-long BLS sticker series. Anchors are industry / menu / survey averages; years between anchors are linear estimates. National averages start in 1950.",
+      "availableFrom": 1950,
+      "unavailableReason": "Pizza was not yet a typical U.S. national staple \u2014 series starts in 1950.",
+      "series": [
+        {
+          "year": 1950,
+          "price": 0.8,
+          "quality": "documented"
+        },
+        {
+          "year": 1951,
+          "price": 0.8188,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 0.8375,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 0.8562,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 0.875,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1955,
+          "price": 0.8938,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1956,
+          "price": 0.9125,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 0.9312,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 0.95,
+          "quality": "documented"
+        },
+        {
+          "year": 1959,
+          "price": 1.0286,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 1.1071,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1961,
+          "price": 1.1857,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 1.2643,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 1.3429,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1964,
+          "price": 1.4214,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1965,
+          "price": 1.5,
+          "quality": "documented"
+        },
+        {
+          "year": 1966,
+          "price": 1.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1967,
+          "price": 1.7,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1968,
+          "price": 1.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1969,
+          "price": 1.9,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1970,
+          "price": 2.0,
+          "quality": "documented"
+        },
+        {
+          "year": 1971,
+          "price": 2.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1972,
+          "price": 2.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1973,
+          "price": 2.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1974,
+          "price": 2.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1975,
+          "price": 3.0,
+          "quality": "documented"
+        },
+        {
+          "year": 1976,
+          "price": 3.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1977,
+          "price": 3.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1978,
+          "price": 4.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1979,
+          "price": 4.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1980,
+          "price": 5.0,
+          "quality": "documented"
+        },
+        {
+          "year": 1981,
+          "price": 5.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1982,
+          "price": 5.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1983,
+          "price": 6.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1984,
+          "price": 6.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1985,
+          "price": 7.0,
+          "quality": "documented"
+        },
+        {
+          "year": 1986,
+          "price": 7.3,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1987,
+          "price": 7.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1988,
+          "price": 7.9,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1989,
+          "price": 8.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1990,
+          "price": 8.5,
+          "quality": "documented"
+        },
+        {
+          "year": 1991,
+          "price": 8.7,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1992,
+          "price": 8.9,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1993,
+          "price": 9.1,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1994,
+          "price": 9.3,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1995,
+          "price": 9.5,
+          "quality": "documented"
+        },
+        {
+          "year": 1996,
+          "price": 9.7,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1997,
+          "price": 9.9,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1998,
+          "price": 10.1,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1999,
+          "price": 10.3,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2000,
+          "price": 10.5,
+          "quality": "documented"
+        },
+        {
+          "year": 2001,
+          "price": 10.55,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2002,
+          "price": 10.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2003,
+          "price": 10.65,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2004,
+          "price": 10.7,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2005,
+          "price": 10.75,
+          "quality": "documented"
+        },
+        {
+          "year": 2006,
+          "price": 10.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2007,
+          "price": 10.85,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2008,
+          "price": 10.9,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2009,
+          "price": 10.95,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2010,
+          "price": 11.0,
+          "quality": "documented"
+        },
+        {
+          "year": 2011,
+          "price": 11.1,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2012,
+          "price": 11.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2013,
+          "price": 11.3,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2014,
+          "price": 11.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2015,
+          "price": 11.5,
+          "quality": "documented"
+        },
+        {
+          "year": 2016,
+          "price": 11.75,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2017,
+          "price": 12.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2018,
+          "price": 12.25,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2019,
+          "price": 12.5,
+          "quality": "documented"
+        },
+        {
+          "year": 2020,
+          "price": 13.25,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2021,
+          "price": 14.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2022,
+          "price": 14.75,
+          "quality": "documented"
+        },
+        {
+          "year": 2023,
+          "price": 15.125,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2024,
+          "price": 15.5,
+          "quality": "documented"
+        },
+        {
+          "year": 2025,
+          "price": 16.0,
+          "quality": "documented"
+        },
+        {
+          "year": 2026,
+          "price": 16.25,
+          "quality": "documented"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "Gallon of milk",
+      "unit": "fresh whole milk, per gallon",
+      "shortLabel": "Milk",
+      "icon": "milk",
+      "notes": "Earlier BLS quotes were per quart or half-gallon and are converted to a gallon. FRED APU0000709112 from 1996. 2026 is January\u2013July average.",
+      "availableFrom": 1926,
+      "unavailableReason": null,
+      "series": [
+        {
+          "year": 1926,
+          "price": 0.56,
+          "quality": "documented"
+        },
+        {
+          "year": 1927,
+          "price": 0.561,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1928,
+          "price": 0.562,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1929,
+          "price": 0.563,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1930,
+          "price": 0.564,
+          "quality": "documented"
+        },
+        {
+          "year": 1931,
+          "price": 0.5596,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1932,
+          "price": 0.5552,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1933,
+          "price": 0.5508,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1934,
+          "price": 0.5464,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1935,
+          "price": 0.542,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1936,
+          "price": 0.5376,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1937,
+          "price": 0.5332,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1938,
+          "price": 0.5288,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1939,
+          "price": 0.5244,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1940,
+          "price": 0.52,
+          "quality": "documented"
+        },
+        {
+          "year": 1941,
+          "price": 0.55,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1942,
+          "price": 0.58,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1943,
+          "price": 0.61,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1944,
+          "price": 0.64,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1945,
+          "price": 0.67,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1946,
+          "price": 0.7,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1947,
+          "price": 0.73,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1948,
+          "price": 0.76,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1949,
+          "price": 0.79,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1950,
+          "price": 0.82,
+          "quality": "documented"
+        },
+        {
+          "year": 1951,
+          "price": 0.842,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 0.864,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 0.886,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 0.908,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1955,
+          "price": 0.93,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1956,
+          "price": 0.952,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 0.974,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 0.996,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1959,
+          "price": 1.018,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 1.04,
+          "quality": "documented"
+        },
+        {
+          "year": 1961,
+          "price": 1.068,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 1.096,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 1.124,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1964,
+          "price": 1.152,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1965,
+          "price": 1.18,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1966,
+          "price": 1.208,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1967,
+          "price": 1.236,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1968,
+          "price": 1.264,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1969,
+          "price": 1.292,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1970,
+          "price": 1.32,
+          "quality": "documented"
+        },
+        {
+          "year": 1971,
+          "price": 1.37,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1972,
+          "price": 1.42,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1973,
+          "price": 1.47,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1974,
+          "price": 1.52,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1975,
+          "price": 1.57,
+          "quality": "documented"
+        },
+        {
+          "year": 1976,
+          "price": 1.676,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1977,
+          "price": 1.782,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1978,
+          "price": 1.888,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1979,
+          "price": 1.994,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1980,
+          "price": 2.1,
+          "quality": "documented"
+        },
+        {
+          "year": 1981,
+          "price": 2.1114,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1982,
+          "price": 2.1229,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1983,
+          "price": 2.1343,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1984,
+          "price": 2.1457,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1985,
+          "price": 2.1571,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1986,
+          "price": 2.1686,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1987,
+          "price": 2.18,
+          "quality": "documented"
+        },
+        {
+          "year": 1988,
+          "price": 1.9267,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1989,
+          "price": 1.6733,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1990,
+          "price": 1.42,
+          "quality": "documented"
+        },
+        {
+          "year": 1991,
+          "price": 1.6205,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1992,
+          "price": 1.821,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1993,
+          "price": 2.0215,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1994,
+          "price": 2.222,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1995,
+          "price": 2.4225,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1996,
+          "price": 2.623,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 2.614,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 2.704,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 2.843,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 2.781,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 2.884,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 2.757,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 2.761,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 3.156,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 3.187,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 3.081,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 3.503,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 3.795,
+          "quality": "official"
+        },
+        {
+          "year": 2009,
+          "price": 3.109,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 3.259,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 3.572,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 3.493,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 3.462,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 3.694,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 3.419,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 3.204,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 3.226,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 2.896,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 3.036,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 3.318,
+          "quality": "official"
+        },
+        {
+          "year": 2021,
+          "price": 3.545,
+          "quality": "official"
+        },
+        {
+          "year": 2022,
+          "price": 4.091,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 4.027,
+          "quality": "official"
+        },
+        {
+          "year": 2024,
+          "price": 3.984,
+          "quality": "official"
+        },
+        {
+          "year": 2025,
+          "price": 4.067,
+          "quality": "official"
+        },
+        {
+          "year": 2026,
+          "price": 4.168,
+          "quality": "ytd"
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "Pound of coffee",
+      "unit": "ground roast coffee, per pound (grocery \u2014 not a caf\u00e9 cup)",
+      "shortLabel": "Coffee",
+      "icon": "coffee",
+      "notes": "BLS grocery ground coffee per pound, not a coffee-shop cup. Historical BLS averages through 1979; FRED APU0000717311 from 1980 (2008 interpolated). 2026 is January\u2013July average.",
+      "availableFrom": 1926,
+      "unavailableReason": null,
+      "series": [
+        {
+          "year": 1926,
+          "price": 0.51,
+          "quality": "documented"
+        },
+        {
+          "year": 1927,
+          "price": 0.4813,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1928,
+          "price": 0.4525,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1929,
+          "price": 0.4238,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1930,
+          "price": 0.395,
+          "quality": "documented"
+        },
+        {
+          "year": 1931,
+          "price": 0.3768,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1932,
+          "price": 0.3586,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1933,
+          "price": 0.3404,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1934,
+          "price": 0.3222,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1935,
+          "price": 0.304,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1936,
+          "price": 0.2858,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1937,
+          "price": 0.2676,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1938,
+          "price": 0.2494,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1939,
+          "price": 0.2312,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1940,
+          "price": 0.213,
+          "quality": "documented"
+        },
+        {
+          "year": 1941,
+          "price": 0.271,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1942,
+          "price": 0.329,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1943,
+          "price": 0.387,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1944,
+          "price": 0.445,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1945,
+          "price": 0.503,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1946,
+          "price": 0.561,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1947,
+          "price": 0.619,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1948,
+          "price": 0.677,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1949,
+          "price": 0.735,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1950,
+          "price": 0.793,
+          "quality": "documented"
+        },
+        {
+          "year": 1951,
+          "price": 0.7889,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 0.7848,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 0.7807,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 0.7766,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1955,
+          "price": 0.7725,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1956,
+          "price": 0.7684,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 0.7643,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 0.7602,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1959,
+          "price": 0.7561,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 0.752,
+          "quality": "documented"
+        },
+        {
+          "year": 1961,
+          "price": 0.7679,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 0.7838,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 0.7997,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1964,
+          "price": 0.8156,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1965,
+          "price": 0.8315,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1966,
+          "price": 0.8474,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1967,
+          "price": 0.8633,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1968,
+          "price": 0.8792,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1969,
+          "price": 0.8951,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1970,
+          "price": 0.911,
+          "quality": "documented"
+        },
+        {
+          "year": 1971,
+          "price": 0.9958,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1972,
+          "price": 1.0807,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1973,
+          "price": 1.1655,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1974,
+          "price": 1.2503,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1975,
+          "price": 1.3352,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1976,
+          "price": 1.42,
+          "quality": "documented"
+        },
+        {
+          "year": 1977,
+          "price": 3.33,
+          "quality": "documented"
+        },
+        {
+          "year": 1978,
+          "price": 3.18,
+          "quality": "documented"
+        },
+        {
+          "year": 1979,
+          "price": 2.89,
+          "quality": "documented"
+        },
+        {
+          "year": 1980,
+          "price": 3.143,
+          "quality": "official"
+        },
+        {
+          "year": 1981,
+          "price": 2.527,
+          "quality": "official"
+        },
+        {
+          "year": 1982,
+          "price": 2.524,
+          "quality": "official"
+        },
+        {
+          "year": 1983,
+          "price": 2.466,
+          "quality": "official"
+        },
+        {
+          "year": 1984,
+          "price": 2.578,
+          "quality": "official"
+        },
+        {
+          "year": 1985,
+          "price": 2.581,
+          "quality": "official"
+        },
+        {
+          "year": 1986,
+          "price": 3.433,
+          "quality": "official"
+        },
+        {
+          "year": 1987,
+          "price": 2.785,
+          "quality": "official"
+        },
+        {
+          "year": 1988,
+          "price": 2.769,
+          "quality": "official"
+        },
+        {
+          "year": 1989,
+          "price": 3.073,
+          "quality": "official"
+        },
+        {
+          "year": 1990,
+          "price": 2.966,
+          "quality": "official"
+        },
+        {
+          "year": 1991,
+          "price": 2.809,
+          "quality": "official"
+        },
+        {
+          "year": 1992,
+          "price": 2.577,
+          "quality": "official"
+        },
+        {
+          "year": 1993,
+          "price": 2.472,
+          "quality": "official"
+        },
+        {
+          "year": 1994,
+          "price": 3.401,
+          "quality": "official"
+        },
+        {
+          "year": 1995,
+          "price": 4.038,
+          "quality": "official"
+        },
+        {
+          "year": 1996,
+          "price": 3.43,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 4.111,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 3.765,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 3.427,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 3.45,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 3.093,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 2.924,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 2.916,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 2.849,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 3.263,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 3.203,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 3.469,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 3.569,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2009,
+          "price": 3.669,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 3.906,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 5.191,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 5.676,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 5.453,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 4.99,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 4.72,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 4.393,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 4.453,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 4.302,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 4.141,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 4.433,
+          "quality": "official"
+        },
+        {
+          "year": 2021,
+          "price": 4.705,
+          "quality": "official"
+        },
+        {
+          "year": 2022,
+          "price": 5.891,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 6.156,
+          "quality": "official"
+        },
+        {
+          "year": 2024,
+          "price": 6.322,
+          "quality": "official"
+        },
+        {
+          "year": 2025,
+          "price": 8.18,
+          "quality": "official"
+        },
+        {
+          "year": 2026,
+          "price": 9.4916,
+          "quality": "ytd"
+        }
+      ]
+    },
+    {
+      "id": "car",
+      "name": "New car",
+      "unit": "average / representative U.S. new vehicle",
+      "shortLabel": "New car",
+      "icon": "car",
+      "notes": "Representative average new-vehicle price (BEA expenditure, NADA, and later KBB-style transaction averages). Mix shifts from cars toward light trucks after the 1990s. Interpolated between documented years.",
+      "availableFrom": 1926,
+      "unavailableReason": null,
+      "series": [
+        {
+          "year": 1926,
+          "price": 850,
+          "quality": "documented"
+        },
+        {
+          "year": 1927,
+          "price": 797.5,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1928,
+          "price": 745.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1929,
+          "price": 692.5,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1930,
+          "price": 640,
+          "quality": "documented"
+        },
+        {
+          "year": 1931,
+          "price": 610.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1932,
+          "price": 580.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1933,
+          "price": 550,
+          "quality": "documented"
+        },
+        {
+          "year": 1934,
+          "price": 592.8571,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1935,
+          "price": 635.7143,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1936,
+          "price": 678.5714,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1937,
+          "price": 721.4286,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1938,
+          "price": 764.2857,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1939,
+          "price": 807.1429,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1940,
+          "price": 850,
+          "quality": "documented"
+        },
+        {
+          "year": 1941,
+          "price": 900.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1942,
+          "price": 950.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1943,
+          "price": 1000.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1944,
+          "price": 1050.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1945,
+          "price": 1100.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1946,
+          "price": 1150.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1947,
+          "price": 1200.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1948,
+          "price": 1250,
+          "quality": "documented"
+        },
+        {
+          "year": 1949,
+          "price": 1380.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1950,
+          "price": 1510,
+          "quality": "documented"
+        },
+        {
+          "year": 1951,
+          "price": 1588.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 1666.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 1744.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 1822.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1955,
+          "price": 1900,
+          "quality": "documented"
+        },
+        {
+          "year": 1956,
+          "price": 1974.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 2049.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 2124.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1959,
+          "price": 2199.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 2274,
+          "quality": "documented"
+        },
+        {
+          "year": 1961,
+          "price": 2349.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 2424.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 2499.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1964,
+          "price": 2574.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1965,
+          "price": 2650,
+          "quality": "documented"
+        },
+        {
+          "year": 1966,
+          "price": 2828.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1967,
+          "price": 3006.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1968,
+          "price": 3185.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1969,
+          "price": 3363.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1970,
+          "price": 3542,
+          "quality": "documented"
+        },
+        {
+          "year": 1971,
+          "price": 3813.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1972,
+          "price": 4085.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1973,
+          "price": 4356.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1974,
+          "price": 4628.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1975,
+          "price": 4900,
+          "quality": "documented"
+        },
+        {
+          "year": 1976,
+          "price": 5362.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1977,
+          "price": 5824.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1978,
+          "price": 6286.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1979,
+          "price": 6748.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1980,
+          "price": 7210,
+          "quality": "documented"
+        },
+        {
+          "year": 1981,
+          "price": 7580.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1982,
+          "price": 7950.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1983,
+          "price": 8320.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1984,
+          "price": 8690.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1985,
+          "price": 9061,
+          "quality": "documented"
+        },
+        {
+          "year": 1986,
+          "price": 10246.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1987,
+          "price": 11432.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1988,
+          "price": 12618.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1989,
+          "price": 13804.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1990,
+          "price": 14990,
+          "quality": "documented"
+        },
+        {
+          "year": 1991,
+          "price": 15512.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1992,
+          "price": 16034.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1993,
+          "price": 16556.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1994,
+          "price": 17078.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1995,
+          "price": 17600,
+          "quality": "documented"
+        },
+        {
+          "year": 1996,
+          "price": 18257.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1997,
+          "price": 18914.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1998,
+          "price": 19571.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1999,
+          "price": 20228.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2000,
+          "price": 20886,
+          "quality": "documented"
+        },
+        {
+          "year": 2001,
+          "price": 21356.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2002,
+          "price": 21827.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2003,
+          "price": 22298.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2004,
+          "price": 22769.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2005,
+          "price": 23240,
+          "quality": "documented"
+        },
+        {
+          "year": 2006,
+          "price": 24352.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2007,
+          "price": 25464.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2008,
+          "price": 26576.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2009,
+          "price": 27688.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2010,
+          "price": 28800,
+          "quality": "documented"
+        },
+        {
+          "year": 2011,
+          "price": 29752.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2012,
+          "price": 30704.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2013,
+          "price": 31656.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2014,
+          "price": 32608.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2015,
+          "price": 33560,
+          "quality": "documented"
+        },
+        {
+          "year": 2016,
+          "price": 34770.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2017,
+          "price": 35980.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2018,
+          "price": 37190.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 2019,
+          "price": 38400,
+          "quality": "documented"
+        },
+        {
+          "year": 2020,
+          "price": 38800,
+          "quality": "documented"
+        },
+        {
+          "year": 2021,
+          "price": 43000,
+          "quality": "documented"
+        },
+        {
+          "year": 2022,
+          "price": 48000,
+          "quality": "documented"
+        },
+        {
+          "year": 2023,
+          "price": 48200,
+          "quality": "documented"
+        },
+        {
+          "year": 2024,
+          "price": 47200,
+          "quality": "documented"
+        },
+        {
+          "year": 2025,
+          "price": 48500,
+          "quality": "documented"
+        },
+        {
+          "year": 2026,
+          "price": 48900,
+          "quality": "documented"
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "name": "Median house",
+      "unit": "see note \u2014 series definition changes in 1963",
+      "shortLabel": "House",
+      "icon": "house",
+      "notes": "1940\u20131960: Census median value of owner-occupied homes (not sale prices). 1963\u20132026: FRED MSPUS median sales price of houses sold. These are related but not identical concepts. No national Census median before 1940. 2026 is Q1\u2013Q2 average.",
+      "availableFrom": 1940,
+      "unavailableReason": "No official national median until the 1940 Census.",
+      "series": [
+        {
+          "year": 1940,
+          "price": 2938,
+          "quality": "documented"
+        },
+        {
+          "year": 1941,
+          "price": 3379.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1942,
+          "price": 3821.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1943,
+          "price": 4262.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1944,
+          "price": 4704.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1945,
+          "price": 5146.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1946,
+          "price": 5587.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1947,
+          "price": 6029.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1948,
+          "price": 6470.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1949,
+          "price": 6912.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1950,
+          "price": 7354,
+          "quality": "documented"
+        },
+        {
+          "year": 1951,
+          "price": 7808.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1952,
+          "price": 8263.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1953,
+          "price": 8717.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1954,
+          "price": 9172.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1955,
+          "price": 9627.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1956,
+          "price": 10081.6,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1957,
+          "price": 10536.2,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1958,
+          "price": 10990.8,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1959,
+          "price": 11445.4,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1960,
+          "price": 11900,
+          "quality": "documented"
+        },
+        {
+          "year": 1961,
+          "price": 13950.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1962,
+          "price": 16000.0,
+          "quality": "interpolated"
+        },
+        {
+          "year": 1963,
+          "price": 18050.0,
+          "quality": "official"
+        },
+        {
+          "year": 1964,
+          "price": 18925.0,
+          "quality": "official"
+        },
+        {
+          "year": 1965,
+          "price": 20125.0,
+          "quality": "official"
+        },
+        {
+          "year": 1966,
+          "price": 21500.0,
+          "quality": "official"
+        },
+        {
+          "year": 1967,
+          "price": 22750.0,
+          "quality": "official"
+        },
+        {
+          "year": 1968,
+          "price": 24800.0,
+          "quality": "official"
+        },
+        {
+          "year": 1969,
+          "price": 25600.0,
+          "quality": "official"
+        },
+        {
+          "year": 1970,
+          "price": 23475.0,
+          "quality": "official"
+        },
+        {
+          "year": 1971,
+          "price": 25225.0,
+          "quality": "official"
+        },
+        {
+          "year": 1972,
+          "price": 27525.0,
+          "quality": "official"
+        },
+        {
+          "year": 1973,
+          "price": 32600.0,
+          "quality": "official"
+        },
+        {
+          "year": 1974,
+          "price": 36050.0,
+          "quality": "official"
+        },
+        {
+          "year": 1975,
+          "price": 39275.0,
+          "quality": "official"
+        },
+        {
+          "year": 1976,
+          "price": 44225.0,
+          "quality": "official"
+        },
+        {
+          "year": 1977,
+          "price": 48900.0,
+          "quality": "official"
+        },
+        {
+          "year": 1978,
+          "price": 55850.0,
+          "quality": "official"
+        },
+        {
+          "year": 1979,
+          "price": 62750.0,
+          "quality": "official"
+        },
+        {
+          "year": 1980,
+          "price": 64750.0,
+          "quality": "official"
+        },
+        {
+          "year": 1981,
+          "price": 68950.0,
+          "quality": "official"
+        },
+        {
+          "year": 1982,
+          "price": 69225.0,
+          "quality": "official"
+        },
+        {
+          "year": 1983,
+          "price": 75375.0,
+          "quality": "official"
+        },
+        {
+          "year": 1984,
+          "price": 79950.0,
+          "quality": "official"
+        },
+        {
+          "year": 1985,
+          "price": 84275.0,
+          "quality": "official"
+        },
+        {
+          "year": 1986,
+          "price": 92025.0,
+          "quality": "official"
+        },
+        {
+          "year": 1987,
+          "price": 104700.0,
+          "quality": "official"
+        },
+        {
+          "year": 1988,
+          "price": 112225.0,
+          "quality": "official"
+        },
+        {
+          "year": 1989,
+          "price": 120425.0,
+          "quality": "official"
+        },
+        {
+          "year": 1990,
+          "price": 122300.0,
+          "quality": "official"
+        },
+        {
+          "year": 1991,
+          "price": 119975.0,
+          "quality": "official"
+        },
+        {
+          "year": 1992,
+          "price": 121375.0,
+          "quality": "official"
+        },
+        {
+          "year": 1993,
+          "price": 126500.0,
+          "quality": "official"
+        },
+        {
+          "year": 1994,
+          "price": 130425.0,
+          "quality": "official"
+        },
+        {
+          "year": 1995,
+          "price": 133475.0,
+          "quality": "official"
+        },
+        {
+          "year": 1996,
+          "price": 140250.0,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 145000.0,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 151925.0,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 160125.0,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 167550.0,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 173100.0,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 186025.0,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 192125.0,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 218150.0,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 236550.0,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 243750.0,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 244950.0,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 229550.0,
+          "quality": "official"
+        },
+        {
+          "year": 2009,
+          "price": 215650.0,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 222700.0,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 224900.0,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 244400.0,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 266225.0,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 285775.0,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 294150.0,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 305125.0,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 322425.0,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 325275.0,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 320250.0,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 328150.0,
+          "quality": "official"
+        },
+        {
+          "year": 2021,
+          "price": 383000.0,
+          "quality": "official"
+        },
+        {
+          "year": 2022,
+          "price": 432950.0,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 426525.0,
+          "quality": "official"
+        },
+        {
+          "year": 2024,
+          "price": 418975.0,
+          "quality": "official"
+        },
+        {
+          "year": 2025,
+          "price": 415400.0,
+          "quality": "official"
+        },
+        {
+          "year": 2026,
+          "price": 409600.0,
+          "quality": "ytd"
+        }
+      ]
+    },
+    {
+      "id": "wage",
+      "name": "Federal minimum wage",
+      "unit": "dollars per hour",
+      "shortLabel": "Min. wage",
+      "icon": "wage",
+      "notes": "Fair Labor Standards Act (1938). FRED FEDMINNFRWG annual statutory rate. Context, not a grocery price. Some years are averages of mid-year statutory changes.",
+      "availableFrom": 1938,
+      "unavailableReason": "No federal minimum wage until the 1938 Fair Labor Standards Act.",
+      "series": [
+        {
+          "year": 1938,
+          "price": 0.25,
+          "quality": "official"
+        },
+        {
+          "year": 1939,
+          "price": 0.26,
+          "quality": "official"
+        },
+        {
+          "year": 1940,
+          "price": 0.3,
+          "quality": "official"
+        },
+        {
+          "year": 1941,
+          "price": 0.3,
+          "quality": "official"
+        },
+        {
+          "year": 1942,
+          "price": 0.3,
+          "quality": "official"
+        },
+        {
+          "year": 1943,
+          "price": 0.3,
+          "quality": "official"
+        },
+        {
+          "year": 1944,
+          "price": 0.3,
+          "quality": "official"
+        },
+        {
+          "year": 1945,
+          "price": 0.33,
+          "quality": "official"
+        },
+        {
+          "year": 1946,
+          "price": 0.4,
+          "quality": "official"
+        },
+        {
+          "year": 1947,
+          "price": 0.4,
+          "quality": "official"
+        },
+        {
+          "year": 1948,
+          "price": 0.4,
+          "quality": "official"
+        },
+        {
+          "year": 1949,
+          "price": 0.4,
+          "quality": "official"
+        },
+        {
+          "year": 1950,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1951,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1952,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1953,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1954,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1955,
+          "price": 0.75,
+          "quality": "official"
+        },
+        {
+          "year": 1956,
+          "price": 0.96,
+          "quality": "official"
+        },
+        {
+          "year": 1957,
+          "price": 1.0,
+          "quality": "official"
+        },
+        {
+          "year": 1958,
+          "price": 1.0,
+          "quality": "official"
+        },
+        {
+          "year": 1959,
+          "price": 1.0,
+          "quality": "official"
+        },
+        {
+          "year": 1960,
+          "price": 1.0,
+          "quality": "official"
+        },
+        {
+          "year": 1961,
+          "price": 1.05,
+          "quality": "official"
+        },
+        {
+          "year": 1962,
+          "price": 1.15,
+          "quality": "official"
+        },
+        {
+          "year": 1963,
+          "price": 1.18,
+          "quality": "official"
+        },
+        {
+          "year": 1964,
+          "price": 1.25,
+          "quality": "official"
+        },
+        {
+          "year": 1965,
+          "price": 1.25,
+          "quality": "official"
+        },
+        {
+          "year": 1966,
+          "price": 1.25,
+          "quality": "official"
+        },
+        {
+          "year": 1967,
+          "price": 1.39,
+          "quality": "official"
+        },
+        {
+          "year": 1968,
+          "price": 1.58,
+          "quality": "official"
+        },
+        {
+          "year": 1969,
+          "price": 1.6,
+          "quality": "official"
+        },
+        {
+          "year": 1970,
+          "price": 1.6,
+          "quality": "official"
+        },
+        {
+          "year": 1971,
+          "price": 1.6,
+          "quality": "official"
+        },
+        {
+          "year": 1972,
+          "price": 1.6,
+          "quality": "official"
+        },
+        {
+          "year": 1973,
+          "price": 1.6,
+          "quality": "official"
+        },
+        {
+          "year": 1974,
+          "price": 1.87,
+          "quality": "official"
+        },
+        {
+          "year": 1975,
+          "price": 2.1,
+          "quality": "official"
+        },
+        {
+          "year": 1976,
+          "price": 2.3,
+          "quality": "official"
+        },
+        {
+          "year": 1977,
+          "price": 2.3,
+          "quality": "official"
+        },
+        {
+          "year": 1978,
+          "price": 2.65,
+          "quality": "official"
+        },
+        {
+          "year": 1979,
+          "price": 2.9,
+          "quality": "official"
+        },
+        {
+          "year": 1980,
+          "price": 3.1,
+          "quality": "official"
+        },
+        {
+          "year": 1981,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1982,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1983,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1984,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1985,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1986,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1987,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1988,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1989,
+          "price": 3.35,
+          "quality": "official"
+        },
+        {
+          "year": 1990,
+          "price": 3.69,
+          "quality": "official"
+        },
+        {
+          "year": 1991,
+          "price": 4.14,
+          "quality": "official"
+        },
+        {
+          "year": 1992,
+          "price": 4.25,
+          "quality": "official"
+        },
+        {
+          "year": 1993,
+          "price": 4.25,
+          "quality": "official"
+        },
+        {
+          "year": 1994,
+          "price": 4.25,
+          "quality": "official"
+        },
+        {
+          "year": 1995,
+          "price": 4.25,
+          "quality": "official"
+        },
+        {
+          "year": 1996,
+          "price": 4.38,
+          "quality": "official"
+        },
+        {
+          "year": 1997,
+          "price": 4.88,
+          "quality": "official"
+        },
+        {
+          "year": 1998,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 1999,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2000,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2001,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2002,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2003,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2004,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2005,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2006,
+          "price": 5.15,
+          "quality": "official"
+        },
+        {
+          "year": 2007,
+          "price": 5.5,
+          "quality": "official"
+        },
+        {
+          "year": 2008,
+          "price": 6.2,
+          "quality": "official"
+        },
+        {
+          "year": 2009,
+          "price": 6.9,
+          "quality": "official"
+        },
+        {
+          "year": 2010,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2011,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2012,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2013,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2014,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2015,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2016,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2017,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2018,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2019,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2020,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2021,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2022,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2023,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2024,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2025,
+          "price": 7.25,
+          "quality": "official"
+        },
+        {
+          "year": 2026,
+          "price": 7.25,
+          "quality": "official"
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": "depression",
+      "label": "Great Depression",
+      "start": 1929,
+      "end": 1933,
+      "headline": "Prices fell \u2014 this is deflation",
+      "cue": "Watch the year-over-year rate turn negative. A dollar bought more goods, but jobs and incomes collapsed. Ask: is falling prices always good news?"
+    },
+    {
+      "id": "ww2",
+      "label": "WWII & postwar",
+      "start": 1941,
+      "end": 1948,
+      "headline": "Wartime demand, then a postwar jump",
+      "cue": "Price controls held some stickers down during the war; when controls lifted, the CPI jumped (see 1946\u201348). Compare a movie ticket and a loaf of bread."
+    },
+    {
+      "id": "oil",
+      "label": "1970s oil shocks",
+      "start": 1973,
+      "end": 1979,
+      "headline": "Energy shocks and double-digit inflation",
+      "cue": "Scrub 1973\u201374 and 1979. Gasoline moves first; then other prices follow. Pause on 1979 and ask what students notice in the basket."
+    },
+    {
+      "id": "volcker",
+      "label": "Early 1980s",
+      "start": 1980,
+      "end": 1982,
+      "headline": "Inflation peaks, then cools",
+      "cue": "The CPI rise is still very high in 1980, then slows. This is the Volcker-era disinflation \u2014 tight money, painful unemployment, falling inflation. Stay factual; no party framing."
+    },
+    {
+      "id": "gfc",
+      "label": "2008\u201309",
+      "start": 2008,
+      "end": 2009,
+      "headline": "Crisis, then a rare CPI dip",
+      "cue": "2008 energy prices spiked, then 2009 shows a slightly negative year-over-year CPI. House sale prices also fall. Compare gasoline 2008 vs 2009."
+    },
+    {
+      "id": "pandemic",
+      "label": "2021\u201322",
+      "start": 2021,
+      "end": 2022,
+      "headline": "A fast inflation burst",
+      "cue": "After a calm 2010s, 2021\u201322 CPI jumps. Used cars, energy, and food led headlines. Ask which basket items moved more than the overall CPI."
+    }
+  ]
+}

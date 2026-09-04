@@ -1,0 +1,57 @@
+name: Deploy classroom sims to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "inflation-sim/**"
+      - "constitution-sim/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            inflation-sim/package-lock.json
+            constitution-sim/package-lock.json
+      - name: Build inflation-sim
+        working-directory: inflation-sim
+        run: |
+          npm ci
+          npm test
+          npm run build
+      - name: Build constitution-sim
+        working-directory: constitution-sim
+        run: |
+          npm ci
+          npm test
+          npm run build
+      - name: Assemble Pages site
+        run: |
+          mkdir -p site/constitution-sim
+          cp -a inflation-sim/dist/. site/
+          cp -a constitution-sim/dist/. site/constitution-sim/
+          touch site/.nojekyll
+      - name: Publish assembled site to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site
+          force_orphan: true

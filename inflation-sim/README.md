@@ -4,6 +4,10 @@ Interactive classroom simulation for **Ryan Mayer’s 10th-grade Economics** cla
 
 No login. No backend. One URL on a Chromebook, phone, or projector.
 
+**Class URL (public HTTPS):** https://animayer.github.io/Economics-Class/
+
+GitHub Pages serves the `npm run build` output from `inflation-sim/dist` (relative `base: './'`). No GitHub login required.
+
 ## Run locally
 
 ```bash

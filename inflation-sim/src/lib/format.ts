@@ -3,6 +3,7 @@ import type { Quality } from "../types";
 const usd = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD",
+  maximumFractionDigits: 0,
 });
 
 const usdFine = new Intl.NumberFormat("en-US", {
@@ -16,10 +17,11 @@ export function money(value: number, kind: "auto" | "fine" = "auto"): string {
   if (!Number.isFinite(value)) {
     return "—";
   }
-  if (kind === "fine" || value < 100) {
-    return usdFine.format(value);
+  const whole = Math.abs(value - Math.round(value)) < 0.005;
+  if (kind === "auto" && value >= 100) {
+    return usd.format(Math.round(value));
   }
-  if (value >= 1000) {
+  if (whole && value >= 10) {
     return usd.format(Math.round(value));
   }
   return usdFine.format(value);

@@ -160,37 +160,47 @@ code {
 
 .episode-ticks {
   position: relative;
-  height: 1.55rem;
-  margin: 0 0.35rem 0.15rem;
+  height: 0.7rem;
+  margin: 0 0.45rem 0.2rem;
 }
 
 .tick {
   position: absolute;
   top: 0;
-  height: 1.4rem;
-  border: 0;
-  padding: 0;
-  background: #e7dcc6;
+  height: 0.55rem;
+  background: #e0c48a;
+  border-radius: 999px;
+}
+
+.tick.is-active {
+  background: var(--gold);
+}
+
+.episode-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+}
+
+.legend-chip {
+  border: 1px solid var(--line);
+  background: white;
   color: var(--ink-soft);
   border-radius: 999px;
-  font-size: 0.68rem;
+  padding: 0.28rem 0.65rem;
+  font: inherit;
+  font-size: 0.88rem;
   font-weight: 700;
-  overflow: hidden;
   cursor: pointer;
 }
 
-.tick span {
-  display: block;
-  padding: 0.18rem 0.35rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.tick.is-active,
-.tick:focus-visible {
+.legend-chip.is-active,
+.legend-chip:focus-visible {
   background: var(--gold);
   color: white;
+  border-color: var(--gold);
   outline: 2px solid var(--navy);
   outline-offset: 1px;
 }
@@ -568,14 +578,6 @@ tr.is-now {
 }
 
 @media (max-width: 720px) {
-  .tick span {
-    font-size: 0;
-  }
-
-  .tick.is-active span {
-    font-size: 0.62rem;
-  }
-
   .kbd-hint {
     display: none;
   }

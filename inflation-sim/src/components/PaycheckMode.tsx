@@ -116,9 +116,14 @@ export function PaycheckMode({ dataset, year }: { dataset: Dataset; year: number
       <p className="paycheck-summary">
         A paycheck of <strong>{money(paycheck, "fine")}</strong> per {period === "hour" ? "hour" : period}
         {period !== "hour" ? ` (${money(amount, "fine")} × ${hoursInPeriod(period)} hours)` : ""}{" "}
-        frozen in <strong>{freezeYear}</strong>{" "}
-        {now?.gas != null && now.gasThen != null ? (
+        frozen in <strong>{freezeYear}</strong>
+        {year < freezeYear ? (
           <>
+            . Scrub to {freezeYear} or later to see what that same dollar amount buys as prices rise.
+          </>
+        ) : now?.gas != null && now.gasThen != null ? (
+          <>
+            {" "}
             buys about <strong>{compactNumber(now.gas)}</strong> gallons of gas in {year}
             {freezeYear !== year ? (
               <>

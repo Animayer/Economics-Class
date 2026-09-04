@@ -8,14 +8,29 @@ export const PLAY_SPEEDS = {
 
 export type PlaySpeed = keyof typeof PLAY_SPEEDS;
 
+function yearFromUrl(startYear: number, endYear: number): number {
+  if (typeof window === "undefined") {
+    return 1950;
+  }
+  const raw = new URLSearchParams(window.location.search).get("year");
+  const parsed = raw ? Number(raw) : 1950;
+  if (!Number.isFinite(parsed)) {
+    return 1950;
+  }
+  return Math.min(endYear, Math.max(startYear, Math.round(parsed)));
+}
+
 export function usePlayback(startYear: number, endYear: number) {
-  const [year, setYear] = useState(1950);
+  const [year, setYear] = useState(() => yearFromUrl(startYear, endYear));
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState<PlaySpeed>("class");
   const yearRef = useRef(year);
 
   useEffect(() => {
     yearRef.current = year;
+    const url = new URL(window.location.href);
+    url.searchParams.set("year", String(year));
+    window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
   }, [year]);
 
   const step = useCallback(

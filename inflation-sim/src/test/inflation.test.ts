@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { money } from "../lib/format";
 import { inflate, rebasedIndex, yearOverYearPct } from "../lib/inflation";
 import { unitsAffordable } from "../lib/lookup";
 
@@ -35,6 +36,14 @@ describe("rebasedIndex", () => {
   it("sets 1926 = 100", () => {
     expect(rebasedIndex(17.7, 17.7)).toBe(100);
     expect(rebasedIndex(331.18, 17.7)).toBeCloseTo(1871.07, 1);
+  });
+});
+
+describe("money", () => {
+  it("keeps cents for everyday stickers and drops them on large prices", () => {
+    expect(money(0.27, "fine")).toBe("$0.27");
+    expect(money(850, "auto")).toBe("$850");
+    expect(money(1510, "auto")).toBe("$1,510");
   });
 });
 

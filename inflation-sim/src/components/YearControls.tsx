@@ -45,19 +45,11 @@ export function YearControls({
             const width = ((episode.end - episode.start) / (endYear - startYear)) * 100;
             const active = year >= episode.start && year <= episode.end;
             return (
-              <button
+              <span
                 key={episode.id}
-                type="button"
                 className={`tick${active ? " is-active" : ""}`}
-                style={{ left: `${left}%`, width: `${Math.max(width, 1.4)}%` }}
-                title={`${episode.label} (${episode.start}–${episode.end})`}
-                onClick={() => {
-                  onPause();
-                  onYear(episode.start);
-                }}
-              >
-                <span>{episode.label}</span>
-              </button>
+                style={{ left: `${left}%`, width: `${Math.max(width, 1.6)}%` }}
+              />
             );
           })}
         </div>
@@ -118,6 +110,24 @@ export function YearControls({
             </label>
           ))}
         </fieldset>
+      </div>
+      <div className="episode-legend">
+        {episodes.map((episode) => {
+          const active = year >= episode.start && year <= episode.end;
+          return (
+            <button
+              key={episode.id}
+              type="button"
+              className={`legend-chip${active ? " is-active" : ""}`}
+              onClick={() => {
+                onPause();
+                onYear(episode.start);
+              }}
+            >
+              {episode.label}
+            </button>
+          );
+        })}
       </div>
       <p className="kbd-hint">
         Keys: ← → year · Space play/pause · PgUp / PgDn decade · Home / End ends

@@ -7,6 +7,7 @@ on:
     paths:
       - "inflation-sim/**"
       - "constitution-sim/**"
+      - "spacex-sim/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -31,6 +32,7 @@ jobs:
           cache-dependency-path: |
             inflation-sim/package-lock.json
             constitution-sim/package-lock.json
+            spacex-sim/package-lock.json
       - name: Build inflation-sim
         working-directory: inflation-sim
         run: |
@@ -43,11 +45,18 @@ jobs:
           npm ci
           npm test
           npm run build
+      - name: Build spacex-sim
+        working-directory: spacex-sim
+        run: |
+          npm ci
+          npm test
+          npm run build
       - name: Assemble Pages site
         run: |
-          mkdir -p site/constitution-sim
+          mkdir -p site/constitution-sim site/spacex-sim
           cp -a inflation-sim/dist/. site/
           cp -a constitution-sim/dist/. site/constitution-sim/
+          cp -a spacex-sim/dist/. site/spacex-sim/
           touch site/.nojekyll
       - name: Publish assembled site to gh-pages
         uses: peaceiris/actions-gh-pages@v4

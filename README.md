@@ -16,5 +16,12 @@ See that folder’s README for how to run it locally and how to project it.
 
 **Live class URL:** https://animayer.github.io/Economics-Class/constitution-sim/
 
-GitHub Pages keeps inflation-sim at the site root and serves this app from the `/constitution-sim/` folder so the inflation URL does not move. See that folder’s README for board shortcuts and deep links.
+GitHub Pages keeps inflation-sim at the site root and serves sibling apps from subfolders so the inflation URL does not move.
+
+## SPCX paper-trading lab
+
+[spacex-sim/](./spacex-sim) is a 10th-grade Economics paper-trading lab for **NASDAQ: SPCX** (SpaceX): last weeks of real daily prices, fractional shares, P&amp;L, technical-analysis overlays, and a decision journal.
+
+**Live class URL:** https://animayer.github.io/Economics-Class/spacex-sim/
+
 

@@ -8,7 +8,7 @@ No login. No brokerage. No student PII. Fake cash only.
 
 ## Teacher how-to (today)
 
-Open the live URL full-screen on the board (`F11`). Leave **Board mode** on. Start on the intro slide (IPO vs secondary market, what a share is, paper-only disclaimer), then hit **Start the lesson**. Default timeline is the last ~4 weeks; play it day-by-day and pause on the gold markers. Ask a volunteer to **Buy** a fractional slice (default spend $2,500 of $10,000) at a close they can defend, then keep walking. At the next signal card, ask whether a cautious swing trader would **enter / wait / take profit / stop** — turn **Answer key** on only after students talk. Finish on **Compare paths**: their book vs buy-and-hold from the window start vs the documented rules robot. Students fill the **decision journal** (thesis, invalidation, metric, emotion) and print or download `.txt` before they leave. **Reset all** between sections. This is education, not advice; past ≠ future.
+Open the live URL full-screen on the board (`F11`). Leave **Board mode** on. Start on the intro slide (IPO vs secondary market, what a share is, paper-only disclaimer), then hit **Start the lesson**. Default timeline is the August turn through the latest close (the bounce, failed bounce, and breakout); play it day-by-day and pause on the gold markers. Ask a volunteer to **Buy** a fractional slice (default spend $2,500 of $10,000) at a close they can defend, then keep walking. At the next signal card, ask whether a cautious swing trader would **enter / wait / take profit / stop** — turn **Answer key** on only after students talk. Finish on **Compare paths**: their book vs buy-and-hold from the window start vs the documented rules robot. Students fill the **decision journal** (thesis, invalidation, metric, emotion) and print or download `.txt` before they leave. **Reset all** between sections. This is education, not advice; past ≠ future.
 
 ## Run locally
 
@@ -59,7 +59,7 @@ Do **not** swap in TSLA or any other ticker. The lesson is locked to **SPCX**.
 
 ## On the board
 
-1. Intro slide, then last ~4 weeks. Switch to **Since IPO** only if you want the June pop and July–August slide.
+1. Intro slide, then the August turn (Aug 4 → latest). Switch to **Since IPO** if you want the June pop and July slide.
 2. Gold ticks = annotated TA moments (RSI oversold, volume breakout, support tag, golden-cross risk, etc.).
 3. Keyboard: **← / →** one session, **Space** play/pause, **Home / End** window ends, **Page Up / Down** five days. Chart is focusable too.
 4. Overlays: candlesticks (or close line), volume, SMA 20, SMA 50, RSI(14), labeled support/resistance, volume-spike highlight.

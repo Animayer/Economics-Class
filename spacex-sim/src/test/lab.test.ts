@@ -40,6 +40,7 @@ describe("bundled SPCX history", () => {
       close: 160.95,
     });
     expect(dataset.bars.some((b) => b.date === "2026-09-11" && b.close === 151.21)).toBe(true);
+    expect(dataset.meta.lessonWindowStart).toBe("2026-08-04");
   });
 
   it("covers at least 4 weeks of daily bars after the IPO", () => {
@@ -168,7 +169,7 @@ describe("signals and compare paths", () => {
   });
 
   it("three compare paths share the same starting cash", () => {
-    const start = bars.find((b) => b.date === "2026-08-17")!;
+    const start = bars.find((b) => b.date === "2026-08-04")!;
     const student = replayTrades([], start.index, start.close, DEFAULT_CASH, 0);
     const paths = comparePaths(bars, start.index, bars.length - 1, DEFAULT_CASH, 0, student, 0);
     expect(paths.map((p) => p.id)).toEqual(["student", "hold", "rules"]);

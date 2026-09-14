@@ -62,7 +62,7 @@ export function Timeline({
           className={`legend-chip ${windowMode === "recent" ? "is-active" : ""}`}
           onClick={() => onWindow("recent")}
         >
-          Last ~4 weeks
+          Last ~5 weeks
         </button>
         <button
           type="button"

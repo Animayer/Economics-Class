@@ -101,7 +101,7 @@ def main() -> None:
             "barCount": len(bars),
             "classLine": "Battery Creek High School · 10th-grade Economics · Mayer",
             "title": "SPCX Paper Trading Lab",
-            "lessonWindowStart": "2026-08-17",
+            "lessonWindowStart": "2026-08-04",
         },
         "levels": levels,
         "bars": bars,

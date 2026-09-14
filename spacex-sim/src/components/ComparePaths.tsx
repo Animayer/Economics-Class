@@ -35,6 +35,9 @@ export function ComparePaths({ paths, hideNotes }: Props) {
       </details>
       {!hideNotes ? (
         <p className="teacher-note">
+          {paths.find((p) => p.id === "rules" && p.trades === 0)
+            ? "The robot is still in cash — no rule has fired yet on the days you have walked. Jump to a gold marker (try Aug 4 or Aug 7) or keep playing. "
+            : ""}
           Ask: who took more risk? Who got lucky on one day? Buy-and-hold can beat a ‘clever’
           robot — and the robot can beat a FOMO chase. Past ≠ future.
         </p>

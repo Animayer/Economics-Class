@@ -18,3 +18,11 @@ See that folder’s README for how to run it locally and how to project it.
 
 GitHub Pages keeps inflation-sim at the site root and serves this app from the `/constitution-sim/` folder so the inflation URL does not move. See that folder’s README for board shortcuts and deep links.
 
+## Candlestick pattern board
+
+[candlestick-sim/](./candlestick-sim) is a projector board for the MarketWatch / beginner-trader unit: how to read a candlestick (open, high, low, close) and how to recognize beginner patterns such as engulfing, hammer, doji, shooting star, spinning top, and marubozu.
+
+**Live class URL:** https://animayer.github.io/Economics-Class/candlestick-sim/
+
+Pages still serves inflation-sim at the site root and constitution-sim at `/constitution-sim/`. This app is a third folder, `/candlestick-sim/`. Prices on the board are made up for class. See that folder’s README for projector shortcuts.
+

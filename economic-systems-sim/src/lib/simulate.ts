@@ -446,6 +446,7 @@ export function finalMetrics(system: SystemId, actions: readonly SimAction[]): M
 export type Debrief = {
   title: string;
   paragraphs: string[];
+  danger: string | null;
 };
 
 export function buildDebrief(system: SystemId, actions: readonly SimAction[]): Debrief {
@@ -481,13 +482,15 @@ export function buildDebrief(system: SystemId, actions: readonly SimAction[]): D
     );
   } else if (system === "socialism") {
     paragraphs.push(
-      "Milton Friedman: nobody spends somebody else’s money as carefully as he spends his own. Public factories can be run by serious people and still waste inputs, because the loss does not land on an owner.",
-      "Thomas Sowell: the knowledge problem is practical. The report in your hand was old, and the need had already moved. A bonus for the long line used a scrap of local knowledge and helped — and it still was not a market price. There are trade-offs, not a plan that solves every goal at once.",
+      "Milton Friedman: nobody spends somebody else’s money as carefully as he spends his own. Public factories can be run by serious people and still waste inputs, because the loss does not land on an owner. Empty shelves are what a household feels.",
+      `Thomas Sowell: intentions are not outcomes. The equality score ended at ${final.equality} while choice ended at ${final.choice}, freedom and exit at ${final.freedom}, and the living standard at ${final.living}. A bonus used a scrap of local knowledge and still was not a price. When the shortage stays, connections — not the line — decide who carries goods home.`,
+      "For a Creekville family, a costly exit means the state is the main employer. Complaining about the empty shelf can cost the paycheck. Favoritism fills the gap a market price would have filled.",
     );
   } else {
     paragraphs.push(
-      "Milton Friedman: if no one may own the result, extra care has little reward. Your ration stayed put whether the hour was careful or minimum. Freedom and property stayed low because the system puts production and political power in the same hands.",
-      "Thomas Sowell: intentions are not outcomes. The plan can raise output of the assigned good and still miss what households needed. Equality of income stayed high. Choice, innovation, and living standards did not follow it. That is a trade-off, not a cartoon.",
+      "Milton Friedman: if no one may own the result, extra care has little reward. Your ration stayed put whether the hour was careful or minimum. The same party holds the job, the shop, the paper, and the police.",
+      `Thomas Sowell: intentions are not outcomes. Equality of income ended at ${final.equality}. Living standards ended at ${final.living}, choice at ${final.choice}, freedom and exit at ${final.freedom}. A high equality score beside a thin ration is not a solved problem. Historical command campaigns turned that miss into famine. This town model stops at shortages. The historical cost did not.`,
+      "No exit is concrete for a Creekville family. They cannot open a shop, print a complaint, or cross the border. Closed borders, secret police, and camps were how 20th-century party-states enforced that monopoly. The repression is a feature of the system, not a random mood.",
     );
   }
 
@@ -517,10 +520,17 @@ export function buildDebrief(system: SystemId, actions: readonly SimAction[]): D
     system === "capitalism"
       ? "Debrief · prices, profit, and crony favors"
       : system === "socialism"
-        ? "Debrief · plans, bonuses, and missing prices"
-        : "Debrief · quotas, rations, and the knowledge problem";
+        ? "Debrief · empty shelves, favoritism, and a costly exit"
+        : "Debrief · no exit, and equality that did not feed the house";
 
-  return { title, paragraphs };
+  const danger =
+    system === "capitalism"
+      ? null
+      : system === "socialism"
+        ? `Freedom and exit ended at ${final.freedom}. Shortages ended at ${final.shortage}. Equality ended at ${final.equality}. A Creekville family still has to eat. Connections, not a price, hand out what is left.`
+        : `Freedom and exit ended at ${final.freedom}. The family cannot leave town, change employers, or vote the plan out. Equality at ${final.equality} did not raise the living standard, which ended at ${final.living}.`;
+
+  return { title, paragraphs, danger };
 }
 
 export const METRICS: {
@@ -537,7 +547,7 @@ export const METRICS: {
   { key: "surplusWaste", label: "Wasted surplus", hint: "Made and not wanted", scale: 100, good: "low" },
   { key: "choice", label: "Consumer choice", hint: "Real options on the shelf", scale: 100, good: "high" },
   { key: "innovation", label: "Innovation", hint: "New products that get made", scale: 100, good: "high" },
-  { key: "freedom", label: "Freedom & property", hint: "Own, leave, speak, trade", scale: 100, good: "high" },
+  { key: "freedom", label: "Freedom & exit", hint: "Own, leave, speak, trade", scale: 100, good: "high" },
   { key: "equality", label: "Income equality", hint: "How even pay is", scale: 100, good: "neutral" },
   {
     key: "personalProfit",

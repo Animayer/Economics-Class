@@ -86,5 +86,12 @@ describe("system simulation", () => {
     }
     const crony = buildDebrief("capitalism", ["crony", "crony", "crony", "crony", "crony"]);
     expect(crony.paragraphs.join(" ").toLowerCase()).toContain("crony");
+    expect(crony.danger).toBeNull();
+    const socialism = buildDebrief("socialism", REFERENCE_ACTIONS.socialism);
+    const communism = buildDebrief("communism", REFERENCE_ACTIONS.communism);
+    expect(socialism.danger).toMatch(/Freedom and exit/);
+    expect(socialism.paragraphs.join(" ").toLowerCase()).toContain("favoritism");
+    expect(communism.danger).toMatch(/cannot leave/);
+    expect(communism.paragraphs.join(" ").toLowerCase()).toContain("no exit");
   });
 });

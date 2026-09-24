@@ -26,3 +26,11 @@ GitHub Pages keeps inflation-sim at the site root and serves this app from the `
 
 Pages still serves inflation-sim at the site root and constitution-sim at `/constitution-sim/`. This app is a third folder, `/candlestick-sim/`. Prices on the board are made up for class. See that folder’s README for projector shortcuts.
 
+## Economic systems
+
+[economic-systems-sim/](./economic-systems-sim) is a student-paced lesson on capitalism, socialism, and communism: short modules, a side-by-side comparison, a five-round town simulation, historical and modern examples, and a self-quiz. The framing is free enterprise (Friedman and Sowell). Crony privilege is called out as not capitalism.
+
+**Live class URL:** https://animayer.github.io/Economics-Class/economic-systems-sim/
+
+See that folder’s README for a one-period demo.
+

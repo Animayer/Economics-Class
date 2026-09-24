@@ -8,6 +8,7 @@ on:
       - "inflation-sim/**"
       - "constitution-sim/**"
       - "candlestick-sim/**"
+      - "economic-systems-sim/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -33,6 +34,7 @@ jobs:
             inflation-sim/package-lock.json
             constitution-sim/package-lock.json
             candlestick-sim/package-lock.json
+            economic-systems-sim/package-lock.json
       - name: Build inflation-sim
         working-directory: inflation-sim
         run: |
@@ -51,12 +53,19 @@ jobs:
           npm ci
           npm test
           npm run build
+      - name: Build economic-systems-sim
+        working-directory: economic-systems-sim
+        run: |
+          npm ci
+          npm test
+          npm run build
       - name: Assemble Pages site
         run: |
-          mkdir -p site/constitution-sim site/candlestick-sim
+          mkdir -p site/constitution-sim site/candlestick-sim site/economic-systems-sim
           cp -a inflation-sim/dist/. site/
           cp -a constitution-sim/dist/. site/constitution-sim/
           cp -a candlestick-sim/dist/. site/candlestick-sim/
+          cp -a economic-systems-sim/dist/. site/economic-systems-sim/
           touch site/.nojekyll
       - name: Publish assembled site to gh-pages
         uses: peaceiris/actions-gh-pages@v4

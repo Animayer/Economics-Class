@@ -1,4 +1,5 @@
 import { CLASS_RULE, SYSTEMS } from "../lib/content";
+import { QUIZ } from "../lib/quiz";
 import type { Progress } from "../lib/progress";
 import type { Mode } from "../types";
 
@@ -31,7 +32,7 @@ const PATHS: { id: Mode; key: string; title: string; body: string }[] = [
     id: "quiz",
     key: "Q",
     title: "Quiz",
-    body: "Twelve questions. Definitions, incentives, crony favors, and modern cases.",
+    body: "Fifteen questions. Definitions, no-exit, shortages, crony favors, and modern cases.",
   },
 ];
 
@@ -81,7 +82,7 @@ export function HubView({
           ))}
           <li>
             <span className={`dot${progress.quizBest !== null ? " is-on" : ""}`} aria-hidden="true" />
-            Quiz best {progress.quizBest === null ? "not taken" : `${progress.quizBest} / 12`}
+            Quiz best {progress.quizBest === null ? "not taken" : `${progress.quizBest} / ${QUIZ.length}`}
           </li>
           <li>
             <span className={`dot${progress.simRuns.length > 0 ? " is-on" : ""}`} aria-hidden="true" />

@@ -47,10 +47,10 @@ export function QuizView({ onScore }: { onScore: (score: number) => void }) {
             {correct} / {total}
           </h2>
           <p>
-            {correct >= 10
-              ? "Strong. You can separate definitions, incentives, and the countries people mislabel."
-              : correct >= 7
-                ? "Solid start. Reread any miss on crony privilege, the knowledge problem, or the Nordic mix-up."
+            {correct >= 12
+              ? "Strong. You can separate definitions, no-exit, shortages, and the countries people mislabel."
+              : correct >= 9
+                ? "Solid start. Reread any miss on crony privilege, famine versus intentions, or the Nordic mix-up."
                 : "Retry after Learn and Examples. The misses are the lesson."}
           </p>
           <button

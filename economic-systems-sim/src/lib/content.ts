@@ -108,13 +108,13 @@ export const SYSTEMS: readonly SystemModule[] = [
       },
       {
         thinker: "Friedman",
-        title: "Spending someone else’s money",
-        body: "Friedman sorted spending into four boxes. The least careful box is spending somebody else’s money on somebody else. A public firm lives in that box more often than a family buying its own groceries.",
+        title: "The state as boss, and as spender",
+        body: "Friedman sorted spending into four boxes. The least careful box is spending somebody else’s money on somebody else. A public firm lives in that box. When that same state is the main employer, exit and speech get expensive: the paycheck and the criticism sit in one office. Quitting or publishing a complaint can cost the job.",
       },
       {
         thinker: "Sowell",
-        title: "Flattened rewards, flattened care",
-        body: "If the careful crew and the careless crew take home the same pay, fewer people knock themselves out for the customer. Sowell’s claim is not that workers become villains. It is that incentives change behavior. Equality of pay and productivity are a trade-off.",
+        title: "The shortage hits the kitchen",
+        body: "A missed plan is not only a chart. It is an empty shelf in an ordinary home — no bread, no shoes, a line before school. Sowell’s rule is that intentions are not outcomes. A speech about fair shares does not cook dinner. When goods are scarce and prices cannot move, connections decide who gets what is left. That is political allocation, not a market.",
       },
     ],
     claims: [
@@ -123,9 +123,9 @@ export const SYSTEMS: readonly SystemModule[] = [
       "They say a democratic government can plan fair shares without becoming a police state.",
     ],
     tradeoffs: [
-      "Without market prices, planners mis-aim. One warehouse fills while another shelf goes bare.",
-      "Public ownership concentrates economic decisions. Even an elected board is a bottleneck, and a lot of knowledge never reaches it.",
-      "Pushing pay toward equality weakens the reward for serving customers, maintaining machines, or trying a product that might fail.",
+      "Households eat the mistake. A warehouse of the wrong good means a parent comes home with nothing.",
+      "Scarce goods go to people with political connections, not to whoever shows a price. Favoritism fills the gap a market price would have filled.",
+      "Where a party-state also seized grain and punished farmers who kept food — Soviet Ukraine, 1932–33, the Holodomor — the shortage became a famine. That is a historical command case, taught again under communism. It is not Denmark, and it is not Britain’s elected nationalizations.",
     ],
     checks: [
       {
@@ -167,7 +167,7 @@ export const SYSTEMS: readonly SystemModule[] = [
       {
         thinker: "Sowell",
         title: "Intentions are not outcomes",
-        body: "Ending “exploitation” on a poster did not fill shops or protect speech. Sowell insists on outcomes. Communist parties promised equality and a new kind of freedom. What arrived was political monopoly plus chronic consumer shortage.",
+        body: "Ending “exploitation” on a poster did not fill shops or protect speech. Sowell insists on outcomes. Parties promised equality. Households got chronic shortage, and under command campaigns they got famine: the Holodomor in Soviet Ukraine (1932–33) and China’s Great Leap Forward (1958–62). The intention did not keep the farmer’s grain in the house.",
       },
       {
         thinker: "Friedman",
@@ -176,8 +176,8 @@ export const SYSTEMS: readonly SystemModule[] = [
       },
       {
         thinker: "Sowell",
-        title: "One set of hands on two kinds of power",
-        body: "When the same party controls the job, the shop, the paper, and the police, ordinary people lose the exit that a market gives them. Sowell treats that concentration as a fact about power, not as a mood.",
+        title: "No exit: one party holds the doors",
+        body: "The same party holds the job, the shop, the newspaper, and the police. Sowell treats that as a fact about power. A family cannot switch employers, print a rival paper, or vote the plan out. Closed borders make “just leave” a crime. Secret police and prison camps — the Soviet Gulag is the plain example — were how these party-states enforced obedience. That repression is a feature of the system, not a random cruel mood.",
       },
       {
         thinker: "Friedman",
@@ -196,9 +196,9 @@ export const SYSTEMS: readonly SystemModule[] = [
       "They say the end stage is a classless, stateless community. Parties that took power said the state was a temporary tool to get there.",
     ],
     tradeoffs: [
-      "The “temporary” party-state did not fade. Political freedom — speech, press, leaving, competing for office — stayed shut.",
-      "Consumer goods lagged. Plans could raise steel or grain tonnage and still miss shoes, housing quality, and variety.",
-      "Famines under forced collectivization and crash campaigns killed millions. That is an outcome to state plainly. It is not a punchline.",
+      "The “temporary” party-state did not fade. Speech, the press, leaving the country, and competing for office stayed shut. Secret police made dissent dangerous.",
+      "A plan can raise steel tonnage while a family waits for shoes. Official pay looks equal. Party stores and special lists are not.",
+      "Command famines were results of policy. Grain seizures and forced collectivization led to the Holodomor. The Great Leap took food for quotas while families starved. State that as history, in plain words. It is not a joke, and it is not a high-tax market economy.",
     ],
     checks: [
       {
@@ -300,8 +300,8 @@ export const DIMENSIONS: readonly Dimension[] = [
     id: "outcomes",
     label: "Historical outcomes",
     capitalism: "Market societies — West Germany after 1948, South Korea, Hong Kong — posted large gains in living standards and choices.",
-    socialism: "Democratic nationalizations had mixed, often sluggish results. Price-control and takeover projects such as Venezuela’s produced shortages.",
-    communism: "Soviet and Maoist plans industrialized under coercion, with famines and closed politics. Market reforms later raised living standards where they were allowed.",
+    socialism: "Price controls and takeovers, as in Venezuela, emptied household shelves. Connections, not prices, decided who got what was left.",
+    communism: "Soviet and Maoist party-states used closed borders, secret police, camps, and famines under command campaigns. Market reforms later raised living standards where they were allowed.",
     insight: "Judge outcomes beside intentions. Friedman and Sowell both ask you to look at shelves, exit, and growth — not only at the label on the poster.",
     thinker: "Sowell",
   },
@@ -344,7 +344,7 @@ export const EXAMPLES: Record<SystemId, readonly ExampleCard[]> = {
     {
       era: "Modern",
       title: "Venezuela’s Bolivarian project",
-      body: "Leaders called the project socialist: nationalizations, especially in oil, and widespread price controls. Shelves emptied, real incomes fell, and millions left. Oil prices moved, and policy still explains the shortages — a lower oil price does not by itself forbid a shop from changing a price.",
+      body: "Leaders called the project socialist: nationalizations, especially in oil, and widespread price controls. Shelves emptied, real incomes fell, and millions left. Oil prices moved, and policy still explains the shortages — a lower oil price does not by itself forbid a shop from changing a price. Why this is dangerous: empty shelves hit ordinary kitchens, and scarce goods and jobs tracked political loyalty.",
     },
     {
       era: "Modern",
@@ -356,17 +356,17 @@ export const EXAMPLES: Record<SystemId, readonly ExampleCard[]> = {
     {
       era: "Classic",
       title: "The Soviet Union after 1928",
-      body: "Five-year plans and collectivization put output under the party. Heavy industry grew. Consumer goods stayed short. Early-1930s famine, including in Ukraine, killed millions. Politics was a one-party monopoly. The system ended in 1991.",
+      body: "Five-year plans and collectivization put output under the party. Heavy industry grew. Consumer goods stayed short. The famine in Ukraine in 1932–33, the Holodomor, followed grain seizures and forced collectivization and killed millions. The Gulag — a system of prison camps — and the secret police were how the one party kept power. Why this is dangerous: the same office owned the job, the food, and the right to leave.",
     },
     {
       era: "Classic",
       title: "China before the market reforms",
-      body: "The Great Leap Forward (1958–1962) was a command campaign for steel and grain. Famine killed tens of millions. The Cultural Revolution added political terror. Intentions about equality and catching up did not equal those outcomes.",
+      body: "The Great Leap Forward (1958–1962) was a command campaign for steel and grain. Local officials reported fake harvests. Quotas still took the food. Famine killed tens of millions of people in their own villages. The Cultural Revolution added political terror. Why this is dangerous: Sowell’s line lands here — the intention was catching up and equality, and the outcome was starvation.",
     },
     {
       era: "Modern",
       title: "North Korea and Cuba",
-      body: "North Korea is a hereditary party-state with a command economy, almost no consumer choice, and far lower living standards than South Korea. Cuba is a one-party state: most major production is still state-directed, with a history of rationing and some small markets allowed recently. Neither is a prosperous consumer economy.",
+      body: "North Korea is a hereditary party-state with a command economy, closed borders, and political prison camps. Living standards stay far below South Korea, which uses markets and private firms. Cuba is a one-party state: most major production is still state-directed, with a long rationing system and punishment for independent politics. Why this is dangerous: a family cannot freely leave, and the party holds the job, the shop, and the police.",
     },
     {
       era: "Modern",

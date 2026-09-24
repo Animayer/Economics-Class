@@ -133,6 +133,12 @@ export function SimulateView({
     return (
       <div className="pane">
         <h2>{debrief.title}</h2>
+        {debrief.danger ? (
+          <aside className="danger-flag" role="note">
+            <h3>Danger flag</h3>
+            <p>{debrief.danger}</p>
+          </aside>
+        ) : null}
         {debrief.paragraphs.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
@@ -154,7 +160,7 @@ export function SimulateView({
                   ["Shortages", "shortage"],
                   ["Consumer choice", "choice"],
                   ["Innovation", "innovation"],
-                  ["Freedom & property", "freedom"],
+                  ["Freedom & exit", "freedom"],
                   ["Income equality", "equality"],
                 ] as const
               ).map(([label, key]) => (

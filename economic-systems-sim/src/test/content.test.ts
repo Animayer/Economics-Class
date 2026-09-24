@@ -36,6 +36,23 @@ describe("lesson content", () => {
     expect(MIXED_NOTE.toLowerCase()).toContain("mixed");
   });
 
+  it("names the human cost of command systems without relabeling Denmark", () => {
+    const socialism = SYSTEMS.find((item) => item.id === "socialism");
+    const communism = SYSTEMS.find((item) => item.id === "communism");
+    const socBlob = `${socialism?.understandings.map((card) => card.body).join(" ")} ${socialism?.tradeoffs.join(" ")}`;
+    const comBlob = `${communism?.understandings.map((card) => card.body).join(" ")} ${communism?.tradeoffs.join(" ")}`;
+    expect(socBlob).toContain("Holodomor");
+    expect(socBlob.toLowerCase()).toContain("connections");
+    expect(comBlob).toContain("Gulag");
+    expect(comBlob.toLowerCase()).toContain("secret police");
+    expect(comBlob.toLowerCase()).toContain("closed borders");
+    const dangerCards = [EXAMPLES.socialism[2], EXAMPLES.communism[0], EXAMPLES.communism[1], EXAMPLES.communism[2]];
+    for (const card of dangerCards) {
+      expect(card.body).toContain("Why this is dangerous");
+    }
+    expect(EXAMPLES.socialism.map((card) => card.body).join(" ")).toContain("not command socialism");
+  });
+
   it("pairs the Koreas and labels modern China as mixed", () => {
     const modern = [...EXAMPLES.capitalism, ...EXAMPLES.communism].map((card) => card.body).join(" ");
     expect(modern).toContain("South Korea");
@@ -69,7 +86,7 @@ describe("lesson content", () => {
 describe("quiz and routes", () => {
   it("has 8–12 scored questions with one correct choice each", () => {
     expect(QUIZ.length).toBeGreaterThanOrEqual(8);
-    expect(QUIZ.length).toBeLessThanOrEqual(12);
+    expect(QUIZ.length).toBeLessThanOrEqual(15);
     expect(QUIZ.some((item) => item.kind === "scenario")).toBe(true);
     for (const question of QUIZ) {
       expect(question.options.length).toBeGreaterThanOrEqual(3);
@@ -78,7 +95,9 @@ describe("quiz and routes", () => {
     }
     const ids = QUIZ.map((item) => item.id);
     expect(new Set(ids).size).toBe(ids.length);
-    expect(ids).toEqual(expect.arrayContaining(["crony", "denmark", "korea", "knowledge", "china-now"]));
+    expect(ids).toEqual(
+      expect.arrayContaining(["crony", "denmark", "korea", "knowledge", "china-now", "no-exit", "famine-outcome", "political-allocation"]),
+    );
   });
 
   it("reads lesson links and ignores junk", () => {

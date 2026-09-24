@@ -52,7 +52,7 @@ The workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) bui
 3. **Compare → Prices**, then **Incentives**. Leave the table up while students argue.
 4. **Simulate.** Run capitalism for five rounds: follow the high price most rounds, take one crony license so the pocket-versus-town split is visible. If time, run socialism with “bonus for the longest line,” then open the debrief table.
 5. **Examples.** South Korea beside North Korea. Denmark is a high-tax market economy, not command socialism. China after 1978 is a party-state with markets, not either pure label.
-6. **Quiz** if minutes remain (12 questions, score on screen, retry). Otherwise assign it for the last ten minutes tomorrow.
+6. **Quiz** if minutes remain (15 questions, score on screen, retry). Otherwise assign it for the last ten minutes tomorrow.
 
 Keys: `H` hub, `L` learn, `C` compare, `S` simulate, `E` examples, `Q` quiz. In Learn, `1`–`3` switch an unlocked system. In the sim and the quiz, `1`–`4` pick a choice.
 

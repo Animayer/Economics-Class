@@ -161,6 +161,48 @@ export const QUIZ: readonly QuizQuestion[] = [
     correctIndex: 0,
     why: "Living standards rose after market reforms. The party kept political control. That is mixed and state-directed — not pure communism, and not the free-enterprise benchmark.",
   },
+  {
+    id: "no-exit",
+    kind: "scenario",
+    prompt:
+      "In a one-party command state, a Creekville parent wants to change jobs, print a complaint about the ration, and leave the country. The party runs the workplace, the paper, the border, and the police. What is the accurate description?",
+    options: [
+      "No exit: one monopoly holds the job, the press, the border, and the police",
+      "A normal market choice, because a ration card is a price",
+      "The same arrangement as Denmark’s high-tax welfare state",
+      "Crony capitalism, because a private owner blocked a rival",
+    ],
+    correctIndex: 0,
+    why: "Sowell’s power point: when one party holds the job, the shop, the press, and the police, ordinary people lose the exit a market gives them. Closed borders make leaving a crime. That is a system feature of 20th-century party-states.",
+  },
+  {
+    id: "famine-outcome",
+    kind: "scenario",
+    prompt:
+      "A command campaign promises equality and a huge harvest. Officials report success. Grain is still taken for the quota, and villages starve. Sowell would say what?",
+    options: [
+      "Intentions are not outcomes — the famine is the result that has to be judged",
+      "The poster’s intention cancels the famine",
+      "This is a high-tax market economy with private farms",
+      "A price signal cleared the grain market",
+    ],
+    correctIndex: 0,
+    why: "The Holodomor and the Great Leap Forward are historical command famines, not mysteries and not Denmark. Sowell: judge the outcome. The intention did not keep food in the house.",
+  },
+  {
+    id: "political-allocation",
+    kind: "scenario",
+    prompt:
+      "Shoes are short. The official price cannot rise. The manager’s cousin gets a pair and the family that waited does not. Under this course’s definition of socialism, what happened?",
+    options: [
+      "Political allocation: connections handed out a scarce good because a price could not",
+      "A market price cleared the shortage",
+      "Free enterprise, because a manager was involved",
+      "Denmark’s welfare state at work",
+    ],
+    correctIndex: 0,
+    why: "When prices are stuck, scarce goods go to people with connections. Friedman’s missing price signal and Sowell’s outcomes meet in an ordinary household: someone goes home without shoes.",
+  },
 ];
 
 export function quizScore(answers: readonly (number | null)[]): { correct: number; total: number } {

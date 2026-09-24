@@ -130,7 +130,7 @@ main { min-width: 0; }
 
 .lede { margin: 0; font-size: 1.12rem; max-width: 46rem; }
 
-.rule, .insight, .situation, .result, .locked-panel, .score-card, .define {
+.rule, .insight, .situation, .result, .locked-panel, .score-card, .define, .danger-flag {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -139,6 +139,8 @@ main { min-width: 0; }
 }
 
 .rule { border-left: 6px solid var(--gold); }
+.danger-flag { border-left: 6px solid var(--rose); background: #2a1820; }
+.danger-flag h3 { margin: 0 0 0.35rem; color: var(--rose); font-size: 1.15rem; }
 .rule h2, .insight h2 { margin: 0 0 0.35rem; font-size: 1.25rem; }
 .rule p, .insight p { margin: 0.2rem 0; }
 
